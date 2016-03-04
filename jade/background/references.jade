@@ -11,7 +11,12 @@ unless _.isEmpty(resume.references)
         ul.list-unstyled
           - each reference_info in resume.references
             li.card.card-nested
-              p: strong= reference_info.name
+              p
+                strong
+                  |#{reference_info.name}&nbsp;
+                a(href=reference_info.website, target="_blank")= "[www]"
+              p.text-muted
+                |#{reference_info.position}
+                br
+                a(href="mailto:" + reference_info.email, itemprop="email")= reference_info.email
 
-              blockquote.quote
-                p.clear-margin= reference_info.reference

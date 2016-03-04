@@ -14,10 +14,10 @@ unless _.isEmpty(resume.awards)
               .content
                 p.clear-margin(itemprop="award")
                   strong= award.title + " "
-                  |#{award.awarder}
+
+                unless _.isEmpty(award.summary)
+                  p.text-muted
+                    small= award.summary
 
                 p.text-muted
-                  small
-                    |Awarded on: #{award.date}
-
-                p.clear-margin= award.summary
+                  small= award.date

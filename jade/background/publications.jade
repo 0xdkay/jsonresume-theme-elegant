@@ -17,12 +17,31 @@ unless _.isEmpty(resume.publications)
                   strong
                     if publication.website
                       a(href=publication.website, target="_blank")= publication.name
-                      |&nbsp;,&nbsp;
                     else
-                      |#{publication.name + ', '}
-                  |#{publication.publisher}
+                      |#{publication.name}
+
+                  unless _.isEmpty(publication.slides)
+                    |&nbsp;
+                    a(href=publication.slides, target="_blank")= "[Slides]"
+
+                  if publication.bestpaper
+                    |&nbsp;
+                    span.label.label-best= "Best Paper"
+
+                p.clear-margin
+                  small
+                    |!{publication.author}
 
                 p.text-muted
-                  small= 'Published on: ' + publication.releaseDate
+                  small= publication.publisher
 
-                p.clear-margin= publication.summary
+                unless _.isEmpty(publication.medias)
+                  span.label.label-media= "Media: "
+                  small
+                    - each media in publication.medias
+                      a(href=media.website, target="_blank").media= media.name
+                      | ,
+                    | ...
+
+                p.text-muted
+                  small= publication.releaseDate

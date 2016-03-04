@@ -1,14 +1,14 @@
-unless _.isEmpty(resume.work)
-  .detail#work-experience
+unless _.isEmpty(resume.projects)
+  .detail#projects
     .icon
-      i.fs-lg.icon-office
-      span.mobile-title Work Experience
+      i.fs-lg.icon-list
+      span.mobile-title Projects
 
     .info
-      h4.title.text-uppercase Work Experience
+      h4.title.text-uppercase Projects
 
       ul.list-unstyled
-        - each experience in resume.work
+        - each experience in resume.projects
           li.card.card-nested.clearfix
             .content
               p.clear-margin.relative
