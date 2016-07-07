@@ -6,7 +6,7 @@
     "email": "dkay@kaist.ac.kr",
     "tel": "(+82) 42-350-7530",
     "website": "http://dkay.kaist.ac.kr",
-    "summary": "Dongkwan Kim is a Ph.D student in the Department of Electrical Engineering at KAIST. He is interested in various fields of security: software, embedded device, cellular network, and sensing/actuation system. He is now working on designing a software analysis platform for securing executables. He has been working on various embedded devices such as automobiles, smart TVs, network routers, and femtocells. He has participated in several hacking CTFs (DEFCON, Codegate, pCTF, Whitehat Contest, HDCON) as a member of KAIST GoN, and now as a member of KaisHack. He holds BS and MS from KAIST in CS and EE (2014, 2016), respectively.",
+    "summary": "Dongkwan Kim is a Ph.D student in the Department of Electrical Engineering at KAIST. He is interested in various fields of security: software, embedded device, cellular network, and sensing/actuation system. He is now working on binary analysis automation for finding bugs & generating exploits. He has been working on various embedded devices such as automobiles, smart TVs, network routers, and femtocells. He has participated in several hacking CTFs (DEFCON, Codegate, pCTF, Whitehat Contest, HDCON) as a member of KAIST GoN, and now as a member of KaisHack. He holds BS and MS from KAIST in CS and EE (2014, 2016), respectively.",
     "location": {
       "address": "201 N26 (CHiPS) Building, KAIST 291 Deahak-ro",
       "postalCode": "34141",
