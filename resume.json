@@ -17,7 +17,7 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "DKay__",
+        "username": "0xdkay",
         "url": "https://twitter.com/0xdkay"
       },
       {
@@ -29,6 +29,11 @@
         "network": "Github",
         "username": "0xdkay",
         "url": "https://github.com/0xdkay"
+      },
+      {
+        "network": "Instagram",
+        "username": "0xdkay",
+        "url": "https://www.instagram.com/0xdkay/"
       }
     ]
   },
