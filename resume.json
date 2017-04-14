@@ -6,7 +6,7 @@
     "email": "dkay@kaist.ac.kr",
     "tel": "(+82) 42-350-7530",
     "website": "http://dkay.kaist.ac.kr",
-    "summary": "Dongkwan Kim is a Ph.D student in the Department of Electrical Engineering at KAIST. He is interested in various fields of security: software, embedded device, cellular network, and sensing/actuation system. He is now working on binary analysis automation for finding bugs & generating exploits. He has been working on various embedded devices such as automobiles, smart TVs, network routers, and femtocells. He has participated in several hacking CTFs (DEFCON, Codegate, pCTF, Whitehat Contest, HDCON) as a member of KAIST GoN, and now as a member of KaisHack. He holds BS and MS from KAIST in CS and EE (2014, 2016), respectively.",
+    "summary": "Dongkwan Kim is a Ph.D student in the Department of Electrical Engineering at KAIST. He is interested in various fields of security: software, embedded device, cellular network, and sensing/actuation system. He is now working on binary analysis automation for finding bugs & generating exploits. He has been working on various embedded devices such as automobiles, smart TVs, network routers, and femtocells. He has participated in several hacking CTFs (DEFCON, Codegate, PlaidCTF, Whitehat Contest, HDCON) as a member of KAIST GoN, and now as a member of KaisHack. He holds BS and MS from KAIST in CS and EE (2014, 2016), respectively.",
     "location": {
       "address": "201 N26 (CHiPS) Building, KAIST 291 Deahak-ro",
       "postalCode": "34141",
@@ -18,7 +18,7 @@
       {
         "network": "Twitter",
         "username": "DKay__",
-        "url": "https://twitter.com/DKay__"
+        "url": "https://twitter.com/0xdkay"
       },
       {
         "network": "Facebook",
@@ -120,6 +120,12 @@
   ],
   "awards": [
     {
+      "title": "Codegate CTF 3rd Prize $5,000 (team. Old GoatskiN)",
+      "date": "2017-04-12",
+      "awarder": "Korea Internet & Security Agency (KISA)",
+      "summary": "Organized by Ministry of Science, ICT and Future Planning of Korea"
+    },
+    {
       "title": "Finalist to Defcon 24 CTF (team. KaisHack GoN)",
       "date": "2016-08-05"
     },
@@ -152,9 +158,23 @@
   ],
   "publications": [
     {
+      "name": "When Cellular Networks Met IPv6: Security Problems of Middleboxes in IPv6 Cellular Networks (To appear)",
+      "publisher": "In Proceedings of the 2nd IEEE European Symposium on Security and Privacy (EuroS&P'17)",
+      "author": "Hyunwook Hong, Hyunwoo Choi, Dongkwan Kim, Hongil Kim, Byeongdo Hong, Jiseong Noh, and Yongdae Kim ",
+      "releaseDate": "2017-04-28",
+      "website": "#"
+    },
+    {
+      "name": "Pay As You Want: Bypassing Charging System in Operational Cellular Networks",
+      "publisher": "The 17th International Workshop on Information Security Applications (WISA'16)",
+      "author": "Hyunwook Hong, Hongil Kim, Byeongdo Hong, Dongkwan Kim, Hyunwoo Choi, Eunkyu Lee and Yongdae Kim",
+      "releaseDate": "2016-08-26",
+      "website": "pub/2016/pay/hong-wisa2016.pdf"
+    },
+    {
       "name": "Breaking and Fixing VoLTE: Exploiting Hidden Data Channels and Mis-implementations",
       "publisher": "In Proceedings of the 22nd ACM Conference on Computer and Communications Security (ACM CCS'15)",
-      "author": "*Hongil Kim, *Dongkwan Kim, Minhee Kwon, Hyungseok Han, Yeongjin Jang, Dongsu Han, Taesoo Kim, and Yongdae Kim",
+      "author": "*Dongkwan Kim, *Hongil Kim, Minhee Kwon, Hyungseok Han, Yeongjin Jang, Dongsu Han, Taesoo Kim, and Yongdae Kim",
       "coauthor": true,
       "releaseDate": "2015-10-13",
       "website": "pub/2015/volte/kim-ccs2015.pdf",
