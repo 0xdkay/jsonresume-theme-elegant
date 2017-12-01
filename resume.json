@@ -5,7 +5,7 @@
     "picture": "dkay.jpg",
     "email": "dkay@kaist.ac.kr",
     "tel": "(+82) 42-350-7530",
-    "website": "http://dkay.kaist.ac.kr",
+    "website": "http://0xdkay.me",
     "summary": "Dongkwan Kim is a Ph.D student in the Department of Electrical Engineering at KAIST. He is interested in various fields of security: software, embedded device, cellular network, and sensing/actuation system. He is now working on binary analysis automation for finding bugs & generating exploits. He has been working on various embedded devices such as automobiles, smart TVs, network routers, and femtocells. He has participated in several hacking CTFs (DEFCON, Codegate, PlaidCTF, Whitehat Contest, HDCON) as a member of KAIST GoN, and now as a member of KaisHack. He holds BS and MS from KAIST in CS and EE (2014, 2016), respectively.",
     "location": {
       "address": "201 N26 (CHiPS) Building, KAIST 291 Deahak-ro",
@@ -125,9 +125,21 @@
   ],
   "awards": [
     {
+      "title": "HDCON CTF 1st Prize $20,000 (team. maxlen)",
+      "date": "2017-11-30",
+      "awarder": "Minister of Science and ICT",
+      "summary": "Organized by Ministry of Science and ICT"
+    },
+    {
+      "title": "Whitehat Contest 2017 1st Prize $30,000 (team. Old GoatskiN)",
+      "date": "2017-11-27",
+      "awarder": "Minister of National Defense",
+      "summary": "Organized by Ministry of National Defense"
+    },
+    {
       "title": "Codegate CTF 3rd Prize $5,000 (team. Old GoatskiN)",
       "date": "2017-04-12",
-      "awarder": "Korea Internet & Security Agency (KISA)",
+      "awarder": "President of Korea Internet & Security Agency (KISA)",
       "summary": "Organized by Ministry of Science, ICT and Future Planning of Korea"
     },
     {
@@ -137,7 +149,7 @@
     {
       "title": "Whitehat Contest 2014 1st Prize $20,000 (team. Syssec)",
       "date": "2014-11-18",
-      "awarder": "National Intelligence Service (NIS)",
+      "awarder": "Director of National Intelligence Service (NIS)",
       "summary": "Organized by Ministry of National Defense and National Intelligence Service of Korea"
     },
     {
@@ -145,29 +157,52 @@
       "date": "2014-08-08"
     },
     {
+      "title": "HDCON CTF Silver Prize $2,000 (team. GoN)",
+      "date": "2013-12-04",
+      "awarder": "President of Korea Internet & Security Agency (KISA)",
+      "summary": "Organized by Korea Internet & Security Agency (KISA)"
+    },
+    {
       "title": "Whitehat Contest 2013 1st Prize $20,000 (team. KAIST GoN)",
       "date": "2013-10-02",
-      "awarder": "National Intelligence Service (NIS)",
-      "summary": "Organized by Ministry of National Defense and National Intelligence Service of Korea"
+      "awarder": "Minister of National Defense",
+      "summary": "Organized by Ministry of National Defense and National Intelligence Service"
     },
     {
       "title": "Finalist to Defcon 20 CTF (team. KAIST GoN)",
       "date": "2012-07-27"
     },
     {
+      "title": "HDCON CTF Silver Prize $2,000 (team. KAIST GoN)",
+      "date": "2012-07-11",
+      "awarder": "President of Korea Internet & Security Agency (KISA)",
+      "summary": "Organized by Korea Internet & Security Agency (KISA)"
+    },
+    {
       "title": "Codegate YUT CTF 3rd Prize $5,000 (team. KAIST GoN)",
       "date": "2012-04-03",
-      "awarder": "Korea Information Technology Research Institute (KITRI)",
+      "awarder": "President of Korea Information Technology Research Institute (KITRI)",
       "summary": "Organized by Ministry of Science, ICT and Future Planning of Korea"
+    },
+    {
+      "title": "ISEC CTF 1st Prize $10,000 (team. GoN)",
+      "date": "2011-09-21",
+      "awarder": "Minister of the Interior and Safety",
+      "summary": "Organized by Ministry of the Interior and Safety"
+    },
+    {
+      "title": "PADOCON CTF 1st Prize $1,000 (team. GoN)",
+      "date": "2011-01-31",
+      "summary": "Organized by PAraDOx CONference (union of undergraduate hacking groups)"
     }
   ],
   "publications": [
     {
-      "name": "When Cellular Networks Met IPv6: Security Problems of Middleboxes in IPv6 Cellular Networks (To appear)",
+      "name": "When Cellular Networks Met IPv6: Security Problems of Middleboxes in IPv6 Cellular Networks",
       "publisher": "In Proceedings of the 2nd IEEE European Symposium on Security and Privacy (EuroS&P'17)",
       "author": "Hyunwook Hong, Hyunwoo Choi, Dongkwan Kim, Hongil Kim, Byeongdo Hong, Jiseong Noh, and Yongdae Kim ",
       "releaseDate": "2017-04-28",
-      "website": "#"
+      "website": "http://ieeexplore.ieee.org/abstract/document/7962005/"
     },
     {
       "name": "Pay As You Want: Bypassing Charging System in Operational Cellular Networks",
@@ -318,10 +353,17 @@
   "references": [
     {
       "name": "Prof. Yongdae Kim",
-      "position": "KAIST System Security Lab.",
+      "position": "KAIST System Security Lab. (SysSec)",
       "summary": "My advisor",
       "email": "yongdaek@kaist.ac.kr",
       "website": "http://syssec.kaist.ac.kr/~yongdaek"
+    },
+    {
+      "name": "Prof. Sukyoung Ryu",
+      "position": "KAIST Programming Language Research Group (PLRG)",
+      "summary": "My previous advisor",
+      "email": "sryu.cs@kaist.ac.kr",
+      "website": "http://plrg.kaist.ac.kr/ryu"
     }
   ]
 }
