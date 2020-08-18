@@ -5,7 +5,8 @@ unless _.isEmpty(resume.work)
       span.mobile-title Work Experience
 
     .info
-      h4.title.text-uppercase Work Experience
+      a(href="#work-experience")
+        h4.title.text-uppercase Work Experience
 
       ul.list-unstyled.clear-margin
         - each experience in resume.work

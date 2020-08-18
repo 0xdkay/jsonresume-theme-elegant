@@ -6,7 +6,8 @@ unless _.isEmpty(resume.publications)
       span.mobile-title Publications
 
     .info
-      h4.title.text-uppercase Publications
+      a(href="#publications")
+        h4.title.text-uppercase Publications
 
       .content
         ul.list-unstyled
@@ -18,7 +19,8 @@ unless _.isEmpty(resume.publications)
                     if publication.website
                       a(href=publication.website, target="_blank")= publication.name
                     else
-                      |#{publication.name}
+                      a(href="#publications")
+                        |#{publication.name}
 
                   unless _.isEmpty(publication.slides)
                     |&nbsp;
@@ -41,7 +43,6 @@ unless _.isEmpty(resume.publications)
                     - each media in publication.links
                       a(href=media.website, target="_blank").media= media.name
                       | ,
-                    | ...
 
                 unless _.isEmpty(publication.medias)
                   span.label.label-media= "Media: "

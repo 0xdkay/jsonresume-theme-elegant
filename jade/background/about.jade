@@ -4,7 +4,8 @@ unless _.isEmpty(resume.basics.summary)
       i.fs-lg.icon-board
       span.mobile-title Bio
     .info
-      h4.title.text-uppercase Bio
+      a(href="#about")
+        h4.title.text-uppercase Bio
 
       .card.card-nested
         .content.mop-wrapper(itemprop="description")!= resume.basics.summary

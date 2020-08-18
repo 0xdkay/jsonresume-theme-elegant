@@ -5,7 +5,8 @@ unless _.isEmpty(resume.projects)
       span.mobile-title Projects
 
     .info
-      h4.title.text-uppercase Projects
+      a(href="#projects")
+        h4.title.text-uppercase Projects
 
       ul.list-unstyled
         - each experience in resume.projects
