@@ -1,369 +1,411 @@
 {
-  "basics": {
-    "name": "Dongkwan Kim",
-    "label": "Ph.D Student",
-    "picture": "dkay.jpg",
-    "email": "dkay@kaist.ac.kr",
-    "tel": "(+82) 42-350-7530",
-    "website": "http://0xdkay.me",
-    "summary": "Dongkwan Kim is a Ph.D student in the Department of Electrical Engineering at KAIST. He is interested in various fields of security: software, embedded device, cellular network, and sensing/actuation system. He is now working on binary analysis automation for finding bugs & generating exploits. He has been working on various embedded devices such as automobiles, smart TVs, network routers, and femtocells. He has participated in several hacking CTFs (DEFCON, Codegate, PlaidCTF, Whitehat Contest, HDCON) as a member of KAIST GoN, and now as a member of KaisHack. He holds BS and MS from KAIST in CS and EE (2014, 2016), respectively.",
-    "location": {
-      "address": "201 N26 (CHiPS) Building, KAIST 291 Deahak-ro",
-      "postalCode": "34141",
-      "city": "Yuseong",
-      "countryCode": "KR",
-      "region": "Daejeon"
+    "basics": {
+        "name": "Dongkwan Kim",
+        "label": "Ph.D Student",
+        "picture": "dkay.jpg",
+        "email": "dkay@kaist.ac.kr",
+        "tel": "(+82) 42-350-7530",
+        "website": "http://0xdkay.me",
+        "summary": "Dongkwan Kim is a Ph.D student in the Department of Electrical Engineering at KAIST. He is interested in various fields of security: software, embedded device, cellular network, and sensing/actuation system. He is now working on binary analysis automation for finding bugs & generating exploits. He has been working on various embedded devices such as automobiles, smart TVs, network routers, and femtocells. He has participated in several hacking CTFs (DEFCON, Codegate, PlaidCTF, Whitehat Contest, HDCON) as a member of KAIST GoN, and now as a member of KaisHack. He holds BS and MS from KAIST in CS and EE (2014, 2016), respectively.",
+        "location": {
+            "address": "201 N26 (CHiPS) Building, KAIST 291 Deahak-ro",
+            "postalCode": "34141",
+            "city": "Yuseong",
+            "countryCode": "KR",
+            "region": "Daejeon"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "0xdkay",
+                "url": "https://twitter.com/0xdkay"
+            },
+            {
+                "network": "Facebook",
+                "username": "0xdkay",
+                "url": "https://facebook.com/0xdkay"
+            },
+            {
+                "network": "Github",
+                "username": "0xdkay",
+                "url": "https://github.com/0xdkay"
+            },
+            {
+                "network": "Instagram",
+                "username": "0xdkay",
+                "url": "https://www.instagram.com/0xdkay/"
+            }
+        ]
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "0xdkay",
-        "url": "https://twitter.com/0xdkay"
-      },
-      {
-        "network": "Facebook",
-        "username": "0xdkay",
-        "url": "https://facebook.com/0xdkay"
-      },
-      {
-        "network": "Github",
-        "username": "0xdkay",
-        "url": "https://github.com/0xdkay"
-      },
-      {
-        "network": "Instagram",
-        "username": "0xdkay",
-        "url": "https://www.instagram.com/0xdkay/"
-      }
+    "languages": [
+        {
+            "language": "Korean",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Foreign language"
+        }
+    ],
+    "education": [
+        {
+            "institution": "KAIST",
+            "area": "Electrical Engineering",
+            "studyType": "Ph.D",
+            "startDate": "2016-03-01",
+            "endDate": "2019-02-20"
+        },
+        {
+            "institution": "KAIST",
+            "area": "Electrical Engineering",
+            "studyType": "Master",
+            "startDate": "2014-03-03",
+            "endDate": "2016-02-19"
+        },
+        {
+            "institution": "EURECOM",
+            "area": "Software and System Security",
+            "studyType": "Visiting Scholar",
+            "startDate": "2014-06-29",
+            "endDate": "2014-07-28"
+        },
+        {
+            "institution": "KAIST",
+            "area": "Computer Science",
+            "studyType": "Bachelor",
+            "startDate": "2010-02-01",
+            "endDate": "2014-02-21"
+        }
+    ],
+    "work": [
+        {
+            "company": "Pinion Industries",
+            "position": "Intern",
+            "startDate": "2013-12-26",
+            "endDate": "2014-02-28",
+            "summary": "Pinion Industries was a company that hacks automobiles to eliminate vulnerabilities. We exploited various components in a car including network systems, AVN, telematics, smartkey, and ECUs. Members of Pinion Industries are now working for Hyundai."
+        },
+        {
+            "company": "KAIST Computer Emergency Response Team (CERT)",
+            "position": "Student Senior",
+            "startDate": "2010-09-01",
+            "endDate": "2012-12-31",
+            "highlights": [
+                "Student Team Leader (2011. 9. 1 ~ 2012. 8. 31)"
+            ]
+        }
+    ],
+    "interests": [
+        {
+            "name": "Software Security",
+            "keywords": [
+                "Fuzzing",
+                "Automatic Exploit Generation"
+            ]
+        },
+        {
+            "name": "Cyber-Physical System Security",
+            "keywords": [
+                "Medical Device",
+                "Automobile",
+                "GPS",
+                "Smart Meter",
+                "Drone"
+            ]
+        },
+        {
+            "name": "Cellular Network Security",
+            "keywords": [
+                "Location Privacy",
+                "Accounting",
+                "Control Plane",
+                "Baseband Exploit"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Finalist to Defcon 28 CTF (team. KaisHack GoN)",
+            "date": "2019-08-09"
+        },
+        {
+            "title": "Finalist to Defcon 26 CTF (team. KaisHack+PLUS+GoN)",
+            "date": "2018-08-09"
+        },
+        {
+            "title": "HDCON CTF 1st Prize $20,000 (team. maxlen)",
+            "date": "2017-11-30",
+            "awarder": "Minister of Science and ICT",
+            "summary": "Organized by Ministry of Science and ICT"
+        },
+        {
+            "title": "Whitehat Contest 2017 1st Prize $30,000 (team. Old GoatskiN)",
+            "date": "2017-11-27",
+            "awarder": "Minister of National Defense",
+            "summary": "Organized by Ministry of National Defense"
+        },
+        {
+            "title": "Codegate CTF 3rd Prize $5,000 (team. Old GoatskiN)",
+            "date": "2017-04-12",
+            "awarder": "President of Korea Internet & Security Agency (KISA)",
+            "summary": "Organized by Ministry of Science, ICT and Future Planning of Korea"
+        },
+        {
+            "title": "Finalist to Defcon 24 CTF (team. KaisHack GoN)",
+            "date": "2016-08-05"
+        },
+        {
+            "title": "Whitehat Contest 2014 1st Prize $20,000 (team. Syssec)",
+            "date": "2014-11-18",
+            "awarder": "Director of National Intelligence Service (NIS)",
+            "summary": "Organized by Ministry of National Defense and National Intelligence Service of Korea"
+        },
+        {
+            "title": "Finalist to Defcon 22 CTF (team. KAIST GoN)",
+            "date": "2014-08-08"
+        },
+        {
+            "title": "HDCON CTF Silver Prize $2,000 (team. GoN)",
+            "date": "2013-12-04",
+            "awarder": "President of Korea Internet & Security Agency (KISA)",
+            "summary": "Organized by Korea Internet & Security Agency (KISA)"
+        },
+        {
+            "title": "Whitehat Contest 2013 1st Prize $20,000 (team. KAIST GoN)",
+            "date": "2013-10-02",
+            "awarder": "Minister of National Defense",
+            "summary": "Organized by Ministry of National Defense and National Intelligence Service"
+        },
+        {
+            "title": "Finalist to Defcon 20 CTF (team. KAIST GoN)",
+            "date": "2012-07-27"
+        },
+        {
+            "title": "HDCON CTF Silver Prize $2,000 (team. KAIST GoN)",
+            "date": "2012-07-11",
+            "awarder": "President of Korea Internet & Security Agency (KISA)",
+            "summary": "Organized by Korea Internet & Security Agency (KISA)"
+        },
+        {
+            "title": "Codegate YUT CTF 3rd Prize $5,000 (team. KAIST GoN)",
+            "date": "2012-04-03",
+            "awarder": "President of Korea Information Technology Research Institute (KITRI)",
+            "summary": "Organized by Ministry of Science, ICT and Future Planning of Korea"
+        },
+        {
+            "title": "ISEC CTF 1st Prize $10,000 (team. GoN)",
+            "date": "2011-09-21",
+            "awarder": "Minister of the Interior and Safety",
+            "summary": "Organized by Ministry of the Interior and Safety"
+        },
+        {
+            "title": "PADOCON CTF 1st Prize $1,000 (team. GoN)",
+            "date": "2011-01-31",
+            "summary": "Organized by PAraDOx CONference (union of undergraduate hacking groups)"
+        }
+    ],
+    "publications": [
+        {
+            "name": "FirmAE: Towards Large-Scale Emulation of IoT Firmware forDynamic Analysis (To appear)",
+            "publisher": "Proceedings of the 2020 Annual Computer Security Applications Conference (ACSAC'20)",
+            "author": "Mingeun Kim, Dongkwan Kim, Eunsoo Kim, Suryeon Kim, Yeongjin Jang, Yongdae Kim",
+            "releaseDate": "2020-12-07",
+            "website": "",
+            "links": [
+                {
+                    "name": "Reported CVEs and PoC exploits",
+                    "website": "https://github.com/pr0v3rbs/CVE"
+                }
+            ]
+        },
+        {
+            "name": "Who Spent My EOS? On the (In)Security of Resource Management of EOS.IO",
+            "publisher": "13th USENIX Workshop on Offensive Technologies (WOOT'19)",
+            "author": "Sangsup Lee, Daejun Kim, Dongkwan Kim, Sooel Son, and Yongdae Kim",
+            "releaseDate": "2019-08-13",
+            "website": "pub/2019/lee-woot2019.pdf",
+            "slides": "pub/2019/lee-woot2019-slides.pdf",
+            "medias": [
+                {
+                    "name": "CoinSpice",
+                    "website": "https://coinspice.io/news/korean-university-team-introduce-four-eosio-attack-vectors-one-confirmed-fatal"
+                }
+            ]
+        },
+        {
+            "name": "Peeking over the Cellular Walled Gardens - A Method for Closed Network Diagnosis",
+            "publisher": "IEEE Transactions on Mobile Computing (TMC'18)",
+            "author": "Byeongdo Hong, Shinjo Park, Hongil Kim, Dongkwan Kim, Hyunwook Hong, Hyunwoo Choi, Jean-Pierre Seifert, Sung-Ju Lee, and Yongdae Kim",
+            "releaseDate": "2018-02-12",
+            "website": "pub/2018/hong-tmc2018.pdf"
+        },
+        {
+            "name": "When Cellular Networks Met IPv6: Security Problems of Middleboxes in IPv6 Cellular Networks",
+            "publisher": "Proceedings of the 2nd IEEE European Symposium on Security and Privacy (EuroS&P'17)",
+            "author": "Hyunwook Hong, Hyunwoo Choi, Dongkwan Kim, Hongil Kim, Byeongdo Hong, Jiseong Noh, and Yongdae Kim",
+            "releaseDate": "2017-04-28",
+            "website": "http://ieeexplore.ieee.org/abstract/document/7962005/"
+        },
+        {
+            "name": "Pay As You Want: Bypassing Charging System in Operational Cellular Networks",
+            "publisher": "The 17th International Workshop on Information Security Applications (WISA'16)",
+            "author": "Hyunwook Hong, Hongil Kim, Byeongdo Hong, Dongkwan Kim, Hyunwoo Choi, Eunkyu Lee and Yongdae Kim",
+            "releaseDate": "2016-08-26",
+            "website": "pub/2016/pay/hong-wisa2016.pdf"
+        },
+        {
+            "name": "Breaking and Fixing VoLTE: Exploiting Hidden Data Channels and Mis-implementations",
+            "publisher": "Proceedings of the 22nd ACM Conference on Computer and Communications Security (ACM CCS'15)",
+            "author": "*Dongkwan Kim, *Hongil Kim, Minhee Kwon, Hyungseok Han, Yeongjin Jang, Dongsu Han, Taesoo Kim, and Yongdae Kim",
+            "coauthor": true,
+            "releaseDate": "2015-10-13",
+            "website": "pub/2015/volte/kim-ccs2015.pdf",
+            "slides": "pub/2015/volte/kim-ccs2015-slides.pdf",
+            "medias": [
+                {
+                    "name": "CVE-2015-6614",
+                    "website": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-6614"
+                },
+                {
+                    "name": "Nexus Security Bulletin",
+                    "website": "https://groups.google.com/forum/#!topic/android-security-updates/GwZn7sixask"
+                },
+                {
+                    "name": "CERT",
+                    "website": "https://www.kb.cert.org/vuls/id/943167"
+                },
+                {
+                    "name": "DSLReports",
+                    "website": "http://www.dslreports.com/shownews/ATT-Verizon-Users-At-Major-Risk-From-VoLTE-Vulnerability-135418"
+                },
+                {
+                    "name": "IT World",
+                    "website": "http://www.itworld.com/article/2995040/is-it-still-possible-to-do-phone-phreaking-yes-with-android-on-lte.html"
+                },
+                {
+                    "name": "Softpedia",
+                    "website": "http://news.softpedia.com/news/lte-4g-networks-put-android-users-at-risk-of-overbilling-and-phone-number-spoofing-494840.shtml"
+                },
+                {
+                    "name": "tom's guide",
+                    "website": "http://www.tomsguide.com/us/lte-flaw-android-phone,news-21734.html"
+                },
+                {
+                    "name": "Pocketnow",
+                    "website": "http://pocketnow.com/2015/10/19/volte-attacks"
+                },
+                {
+                    "name": "FierceMobileIT",
+                    "website": "http://www.fiercemobileit.com/story/android-devices-using-4g-lte-networks-vulnerable-hijacking/2015-10-19"
+                },
+                {
+                    "name": "Techworm",
+                    "website": "http://www.techworm.net/2015/10/new-flaw-makes-android-devices-att-verizons-wireless-services-vulnerable.html"
+                },
+                {
+                    "name": "Neowin",
+                    "website": "http://www.neowin.net/news/vulnerability-makes-every-android-device-on-att-and-verizons-wireless-vulnerable"
+                },
+                {
+                    "name": "Network World",
+                    "website": "http://www.networkworld.com/article/2994477/security/lte-flaws-risk-security-and-privacy-of-all-androids-on-verizon-and-atandt.html"
+                }
+            ]
+        },
+        {
+            "name": "BurnFit: Analyzing and Exploiting Wearable Devices",
+            "publisher": "The 16th International Workshop on Information Security Applications (WISA'15)",
+            "author": "Dongkwan Kim, Suwan Park, Kibum Choi, Yongdae Kim",
+            "releaseDate": "2015-08-26",
+            "website": "pub/2015/burnfit/kim-wisa2015.pdf",
+            "bestpaper": true
+        },
+        {
+            "name": "Rocking Drones with Intentional Sound Noise on Gyroscopic Sensors",
+            "publisher": "Proceedings of the 24th USENIX Security Symposium (Usenix Security'15)",
+            "author": "Yunmok Son, Hocheol Shin, Dongkwan Kim, Youngseok Park, Juhwan Noh, Kibum Choi, Jungwoo Choi, and Yongdae Kim",
+            "releaseDate": "2015-08-14",
+            "website": "pub/2015/rocking_drones/son-sec2015.pdf",
+            "slides": "pub/2015/rocking_drones/son-sec2015-slides.pdf",
+            "medias": [
+                {
+                    "name": "Popular Science",
+                    "website": "http://www.popsci.com/korean-researchers-knock-drones-out-air-sound"
+                },
+                {
+                    "name": "New York Daily",
+                    "website": "http://www.nydailynews.com/news/world/south-korea-study-proves-sound-waves-disable-drones-article-1.2318227"
+                },
+                {
+                    "name": "Discover Magazine",
+                    "website": "http://blogs.discovermagazine.com/drone360/2015/08/05/sound-can-knock-drones-out-of-the-air/#.VgCk2iC8PRZ"
+                },
+                {
+                    "name": "Defense Systems",
+                    "website": "https://defensesystems.com/Articles/2015/08/10/KAIST-researchers-take-out-drones-with-sound.aspx"
+                },
+                {
+                    "name": "IBTimes",
+                    "website": "http://www.ibtimes.co.uk/drones-knocked-out-air-by-sound-waves-1514781"
+                },
+                {
+                    "name": "Sputnik",
+                    "website": "http://sputniknews.com/asia/20150807/1025497684.html"
+                },
+                {
+                    "name": "Techworm",
+                    "website": "http://www.techworm.net/2015/08/drone-hack-blasting-a-sound-at-a-drone-can-knock-it-out-of-the-air.html"
+                },
+                {
+                    "name": "Slashdot",
+                    "website": "http://tech.slashdot.org/story/15/08/05/1224237/sounds-can-knock-drones-out-of-the-sky"
+                },
+                {
+                    "name": "Network World",
+                    "website": "http://www.networkworld.com/article/2957033/sounds-can-knock-drones-out-of-the-sky.html"
+                },
+                {
+                    "name": "Gizmodo",
+                    "website": "http://gizmodo.com/simple-soundwaves-can-knock-a-drone-out-of-the-sky-1722240688"
+                }
+            ]
+        },
+        {
+            "name": "Analyzing Security of Korean USIM-based PKI Certificate Service",
+            "publisher": "The 15th International Workshop on Information Security Applications (WISA'14)",
+            "author": "Shinjo Park, Suwan Park, Insu Yun, Dongkwan Kim, Yongdae Kim",
+            "releaseDate": "2014-08-26",
+            "website": "pub/2014/park-wisa2014.pdf"
+        },
+        {
+            "name": "High-speed automatic segmentation of intravascular stent struts in optical coherence tomography images",
+            "publisher": "Proceedings of SPIE Biomedical Optics, Photonics West 2013 (BiOS'13)",
+            "author": "Myounghee Han, Dongkwan Kim, Wang-Yuhl Oh, and Sukyoung Ryu",
+            "releaseDate": "2013-02-02",
+            "website": "pub/2013/han-bios2013.pdf"
+        },
+        {
+            "name": "High-speed automatic segmentation of intravascular stent struts in optical coherence tomography images",
+            "publisher": "International Forum on Medical Imaging in Asia 2012 (IFMIA'12)",
+            "author": "Myounghee Han, Dongkwan Kim, Wang-Yuhl Oh, and Sukyoung Ryu",
+            "releaseDate": "2012-11-16",
+            "website": "pub/2012/han-ifmia2012.pdf"
+        }
+    ],
+    "references": [
+        {
+            "name": "Prof. Yongdae Kim",
+            "position": "KAIST System Security Lab. (SysSec)",
+            "summary": "My advisor",
+            "email": "yongdaek@kaist.ac.kr",
+            "website": "http://syssec.kaist.ac.kr/~yongdaek"
+        },
+        {
+            "name": "Prof. Sukyoung Ryu",
+            "position": "KAIST Programming Language Research Group (PLRG)",
+            "summary": "My previous advisor",
+            "email": "sryu.cs@kaist.ac.kr",
+            "website": "http://plrg.kaist.ac.kr/ryu"
+        }
     ]
-  },
-  "languages": [
-    {
-      "language": "Korean",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Foreign language"
-    }
-  ],
-  "education": [
-    {
-      "institution": "KAIST",
-      "area": "Electrical Engineering",
-      "studyType": "Ph.D",
-      "startDate": "2016-03-01",
-      "endDate": "2019-02-20"
-    },
-    {
-      "institution": "KAIST",
-      "area": "Electrical Engineering",
-      "studyType": "Master",
-      "startDate": "2014-03-03",
-      "endDate": "2016-02-19"
-    },
-    {
-      "institution": "EURECOM",
-      "area": "Software and System Security",
-      "studyType": "Visiting Scholar",
-      "startDate": "2014-06-29",
-      "endDate": "2014-07-28"
-    },
-    {
-      "institution": "KAIST",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2010-02-01",
-      "endDate": "2014-02-21"
-    }
-  ],
-  "work": [
-    {
-      "company": "Pinion Industries",
-      "position": "Intern",
-      "startDate": "2013-12-26",
-      "endDate": "2014-02-28",
-      "summary": "Pinion Industries was a company that hacks automobiles to eliminate vulnerabilities. We exploited various components in a car including network systems, AVN, telematics, smartkey, and ECUs. Members of Pinion Industries are now working for Hyundai."
-    },
-    {
-      "company": "KAIST Computer Emergency Response Team (CERT)",
-      "position": "Student Senior",
-      "startDate": "2010-09-01",
-      "endDate": "2012-12-31",
-      "highlights": [
-        "Student Team Leader (2011. 9. 1 ~ 2012. 8. 31)"
-      ]
-    }
-  ],
-  "interests": [
-    {
-      "name": "Software Security",
-      "keywords": [
-        "Fuzzing",
-        "Automatic Exploit Generation"
-      ]
-    },
-    {
-      "name": "Cyber-Physical System Security",
-      "keywords": [
-        "Medical Device",
-        "Automobile",
-        "GPS",
-        "Smart Meter",
-        "Drone"
-      ]
-    },
-    {
-      "name": "Cellular Network Security",
-      "keywords": [
-        "Location Privacy",
-        "Accounting",
-        "Control Plane",
-        "Baseband Exploit"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "HDCON CTF 1st Prize $20,000 (team. maxlen)",
-      "date": "2017-11-30",
-      "awarder": "Minister of Science and ICT",
-      "summary": "Organized by Ministry of Science and ICT"
-    },
-    {
-      "title": "Whitehat Contest 2017 1st Prize $30,000 (team. Old GoatskiN)",
-      "date": "2017-11-27",
-      "awarder": "Minister of National Defense",
-      "summary": "Organized by Ministry of National Defense"
-    },
-    {
-      "title": "Codegate CTF 3rd Prize $5,000 (team. Old GoatskiN)",
-      "date": "2017-04-12",
-      "awarder": "President of Korea Internet & Security Agency (KISA)",
-      "summary": "Organized by Ministry of Science, ICT and Future Planning of Korea"
-    },
-    {
-      "title": "Finalist to Defcon 24 CTF (team. KaisHack GoN)",
-      "date": "2016-08-05"
-    },
-    {
-      "title": "Whitehat Contest 2014 1st Prize $20,000 (team. Syssec)",
-      "date": "2014-11-18",
-      "awarder": "Director of National Intelligence Service (NIS)",
-      "summary": "Organized by Ministry of National Defense and National Intelligence Service of Korea"
-    },
-    {
-      "title": "Finalist to Defcon 22 CTF (team. KAIST GoN)",
-      "date": "2014-08-08"
-    },
-    {
-      "title": "HDCON CTF Silver Prize $2,000 (team. GoN)",
-      "date": "2013-12-04",
-      "awarder": "President of Korea Internet & Security Agency (KISA)",
-      "summary": "Organized by Korea Internet & Security Agency (KISA)"
-    },
-    {
-      "title": "Whitehat Contest 2013 1st Prize $20,000 (team. KAIST GoN)",
-      "date": "2013-10-02",
-      "awarder": "Minister of National Defense",
-      "summary": "Organized by Ministry of National Defense and National Intelligence Service"
-    },
-    {
-      "title": "Finalist to Defcon 20 CTF (team. KAIST GoN)",
-      "date": "2012-07-27"
-    },
-    {
-      "title": "HDCON CTF Silver Prize $2,000 (team. KAIST GoN)",
-      "date": "2012-07-11",
-      "awarder": "President of Korea Internet & Security Agency (KISA)",
-      "summary": "Organized by Korea Internet & Security Agency (KISA)"
-    },
-    {
-      "title": "Codegate YUT CTF 3rd Prize $5,000 (team. KAIST GoN)",
-      "date": "2012-04-03",
-      "awarder": "President of Korea Information Technology Research Institute (KITRI)",
-      "summary": "Organized by Ministry of Science, ICT and Future Planning of Korea"
-    },
-    {
-      "title": "ISEC CTF 1st Prize $10,000 (team. GoN)",
-      "date": "2011-09-21",
-      "awarder": "Minister of the Interior and Safety",
-      "summary": "Organized by Ministry of the Interior and Safety"
-    },
-    {
-      "title": "PADOCON CTF 1st Prize $1,000 (team. GoN)",
-      "date": "2011-01-31",
-      "summary": "Organized by PAraDOx CONference (union of undergraduate hacking groups)"
-    }
-  ],
-  "publications": [
-    {
-      "name": "When Cellular Networks Met IPv6: Security Problems of Middleboxes in IPv6 Cellular Networks",
-      "publisher": "In Proceedings of the 2nd IEEE European Symposium on Security and Privacy (EuroS&P'17)",
-      "author": "Hyunwook Hong, Hyunwoo Choi, Dongkwan Kim, Hongil Kim, Byeongdo Hong, Jiseong Noh, and Yongdae Kim ",
-      "releaseDate": "2017-04-28",
-      "website": "http://ieeexplore.ieee.org/abstract/document/7962005/"
-    },
-    {
-      "name": "Pay As You Want: Bypassing Charging System in Operational Cellular Networks",
-      "publisher": "The 17th International Workshop on Information Security Applications (WISA'16)",
-      "author": "Hyunwook Hong, Hongil Kim, Byeongdo Hong, Dongkwan Kim, Hyunwoo Choi, Eunkyu Lee and Yongdae Kim",
-      "releaseDate": "2016-08-26",
-      "website": "pub/2016/pay/hong-wisa2016.pdf"
-    },
-    {
-      "name": "Breaking and Fixing VoLTE: Exploiting Hidden Data Channels and Mis-implementations",
-      "publisher": "In Proceedings of the 22nd ACM Conference on Computer and Communications Security (ACM CCS'15)",
-      "author": "*Dongkwan Kim, *Hongil Kim, Minhee Kwon, Hyungseok Han, Yeongjin Jang, Dongsu Han, Taesoo Kim, and Yongdae Kim",
-      "coauthor": true,
-      "releaseDate": "2015-10-13",
-      "website": "pub/2015/volte/kim-ccs2015.pdf",
-      "slides": "pub/2015/volte/kim-ccs2015-slides.pdf",
-      "medias": [
-        {
-          "name": "CVE-2015-6614",
-          "website": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-6614"
-        },
-        {
-          "name": "Nexus Security Bulletin",
-          "website": "https://groups.google.com/forum/#!topic/android-security-updates/GwZn7sixask"
-        },
-        {
-          "name": "CERT",
-          "website": "https://www.kb.cert.org/vuls/id/943167"
-        },
-        {
-          "name": "DSLReports",
-          "website": "http://www.dslreports.com/shownews/ATT-Verizon-Users-At-Major-Risk-From-VoLTE-Vulnerability-135418"
-        },
-        {
-          "name": "IT World",
-          "website": "http://www.itworld.com/article/2995040/is-it-still-possible-to-do-phone-phreaking-yes-with-android-on-lte.html"
-        },
-        {
-          "name": "Softpedia",
-          "website": "http://news.softpedia.com/news/lte-4g-networks-put-android-users-at-risk-of-overbilling-and-phone-number-spoofing-494840.shtml"
-        },
-        {
-          "name": "tom's guide",
-          "website": "http://www.tomsguide.com/us/lte-flaw-android-phone,news-21734.html"
-        },
-        {
-          "name": "Pocketnow",
-          "website": "http://pocketnow.com/2015/10/19/volte-attacks"
-        },
-        {
-          "name": "FierceMobileIT",
-          "website": "http://www.fiercemobileit.com/story/android-devices-using-4g-lte-networks-vulnerable-hijacking/2015-10-19"
-        },
-        {
-          "name": "Techworm",
-          "website": "http://www.techworm.net/2015/10/new-flaw-makes-android-devices-att-verizons-wireless-services-vulnerable.html"
-        },
-        {
-          "name": "Neowin",
-          "website": "http://www.neowin.net/news/vulnerability-makes-every-android-device-on-att-and-verizons-wireless-vulnerable"
-        },
-        {
-          "name": "Network World",
-          "website": "http://www.networkworld.com/article/2994477/security/lte-flaws-risk-security-and-privacy-of-all-androids-on-verizon-and-atandt.html"
-        }
-      ]
-    },
-    {
-      "name": "BurnFit: Analyzing and Exploiting Wearable Devices",
-      "publisher": "The 16th International Workshop on Information Security Applications (WISA'15)",
-      "author": "Dongkwan Kim, Suwan Park, Kibum Choi, Yongdae Kim",
-      "releaseDate": "2015-08-26",
-      "website": "pub/2015/burnfit/kim-wisa2015.pdf",
-      "bestpaper": true
-    },
-    {
-      "name": "Rocking Drones with Intentional Sound Noise on Gyroscopic Sensors",
-      "publisher": "In Proceedings of the 24th USENIX Security Symposium (Usenix Security'15)",
-      "author": "Yunmok Son, Hocheol Shin, Dongkwan Kim, Youngseok Park, Juhwan Noh, Kibum Choi, Jungwoo Choi, and Yongdae Kim",
-      "releaseDate": "2015-08-14",
-      "website": "pub/2015/rocking_drones/son-sec2015.pdf",
-      "slides": "pub/2015/rocking_drones/son-sec2015-slides.pdf",
-      "medias": [
-        {
-          "name": "Popular Science",
-          "website": "http://www.popsci.com/korean-researchers-knock-drones-out-air-sound"
-        },
-        {
-          "name": "New York Daily",
-          "website": "http://www.nydailynews.com/news/world/south-korea-study-proves-sound-waves-disable-drones-article-1.2318227"
-        },
-        {
-          "name": "Discover Magazine",
-          "website": "http://blogs.discovermagazine.com/drone360/2015/08/05/sound-can-knock-drones-out-of-the-air/#.VgCk2iC8PRZ"
-        },
-        {
-          "name": "Defense Systems",
-          "website": "https://defensesystems.com/Articles/2015/08/10/KAIST-researchers-take-out-drones-with-sound.aspx"
-        },
-        {
-          "name": "IBTimes",
-          "website": "http://www.ibtimes.co.uk/drones-knocked-out-air-by-sound-waves-1514781"
-        },
-        {
-          "name": "Sputnik",
-          "website": "http://sputniknews.com/asia/20150807/1025497684.html"
-        },
-        {
-          "name": "Techworm",
-          "website": "http://www.techworm.net/2015/08/drone-hack-blasting-a-sound-at-a-drone-can-knock-it-out-of-the-air.html"
-        },
-        {
-          "name": "Slashdot",
-          "website": "http://tech.slashdot.org/story/15/08/05/1224237/sounds-can-knock-drones-out-of-the-sky"
-        },
-        {
-          "name": "Network World",
-          "website": "http://www.networkworld.com/article/2957033/sounds-can-knock-drones-out-of-the-sky.html"
-        },
-        {
-          "name": "Gizmodo",
-          "website": "http://gizmodo.com/simple-soundwaves-can-knock-a-drone-out-of-the-sky-1722240688"
-        }
-      ]
-    },
-    {
-      "name": "Analyzing Security of Korean USIM-based PKI Certificate Service",
-      "publisher": "The 15th International Workshop on Information Security Applications (WISA'14)",
-      "author": "Shinjo Park, Suwan Park, Insu Yun, Dongkwan Kim, Yongdae Kim",
-      "releaseDate": "2014-08-26",
-      "website": "pub/2014/park-wisa2014.pdf"
-    },
-    {
-      "name": "High-speed automatic segmentation of intravascular stent struts in optical coherence tomography images",
-      "publisher": "Proceedings of SPIE Biomedical Optics, Photonics West 2013 (BiOS'13)",
-      "author": "Myounghee Han, Dongkwan Kim, Wang-Yuhl Oh, and Sukyoung Ryu",
-      "releaseDate": "2013-02-02",
-      "website": "pub/2013/han-bios2013.pdf"
-    },
-    {
-      "name": "High-speed automatic segmentation of intravascular stent struts in optical coherence tomography images",
-      "publisher": "International Forum on Medical Imaging in Asia 2012 (IFMIA'12)",
-      "author": "Myounghee Han, Dongkwan Kim, Wang-Yuhl Oh, and Sukyoung Ryu",
-      "releaseDate": "2012-11-16",
-      "website": "pub/2012/han-ifmia2012.pdf"
-    }
-  ],
-  "references": [
-    {
-      "name": "Prof. Yongdae Kim",
-      "position": "KAIST System Security Lab. (SysSec)",
-      "summary": "My advisor",
-      "email": "yongdaek@kaist.ac.kr",
-      "website": "http://syssec.kaist.ac.kr/~yongdaek"
-    },
-    {
-      "name": "Prof. Sukyoung Ryu",
-      "position": "KAIST Programming Language Research Group (PLRG)",
-      "summary": "My previous advisor",
-      "email": "sryu.cs@kaist.ac.kr",
-      "website": "http://plrg.kaist.ac.kr/ryu"
-    }
-  ]
 }

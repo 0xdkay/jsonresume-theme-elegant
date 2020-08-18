@@ -35,6 +35,14 @@ unless _.isEmpty(resume.publications)
                 p.text-muted
                   small= publication.publisher
 
+                unless _.isEmpty(publication.links)
+                  span.label.label-media= "Link: "
+                  small
+                    - each media in publication.links
+                      a(href=media.website, target="_blank").media= media.name
+                      | ,
+                    | ...
+
                 unless _.isEmpty(publication.medias)
                   span.label.label-media= "Media: "
                   small
