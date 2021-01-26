@@ -99,19 +99,9 @@
         {
             "name": "Software Security",
             "keywords": [
-                "Fuzzing",
-                "Symbolic Execution",
                 "Reverse Engineering",
                 "Binary Code Similarity Analysis",
                 "Automatic Exploit Generation"
-            ]
-        },
-        {
-            "name": "Cyber-Physical System Security",
-            "keywords": [
-                "Drone",
-                "Automobile",
-                "Wearable Device"
             ]
         },
         {
@@ -119,7 +109,17 @@
             "keywords": [
                 "Baseband",
                 "Control Plane",
+                "IMS",
+                "Privacy",
                 "Accounting"
+            ]
+        },
+        {
+            "name": "Cyber-Physical System Security",
+            "keywords": [
+                "Drone",
+                "Automobile",
+                "Wearables"
             ]
         }
     ],
@@ -206,15 +206,50 @@
     ],
     "publications": [
         {
-            "name": "FirmAE: Towards Large-Scale Emulation of IoT Firmware forDynamic Analysis (To appear)",
-            "publisher": "Proceedings of the 2020 Annual Computer Security Applications Conference (ACSAC'20)",
-            "author": "Mingeun Kim, Dongkwan Kim, Eunsoo Kim, Suryeon Kim, Yeongjin Jang, Yongdae Kim",
-            "releaseDate": "2020-12-07",
+            "name": "BaseSpec: Comparative Analysis of Baseband Software and Cellular Specifications for L3 Protocols",
+            "publisher": "Proceedings of the 2021 Annual Network and Distributed System Security Symposium (NDSS'21)",
+            "author": "Dongkwan Kim*, Eunsoo Kim*, CheolJun Park, Insu Yun, and Yongdae Kim",
+            "releaseDate": "2021-02-22",
             "website": "",
             "links": [
                 {
+                    "name": "BaseSpec (Source Code)",
+                    "website": "https://github.com/SysSec-KAIST/BaseSpec"
+                }
+            ]
+        },
+        {
+            "name": "FirmAE: Towards Large-Scale Emulation of IoT Firmware forDynamic Analysis",
+            "publisher": "Proceedings of the 2020 Annual Computer Security Applications Conference (ACSAC'20)",
+            "author": "Mingeun Kim, Dongkwan Kim, Eunsoo Kim, Suryeon Kim, Yeongjin Jang, and Yongdae Kim",
+            "releaseDate": "2020-12-11",
+            "website": "pub/2020/kim-acsac2020.pdf",
+            "slides": "pub/2020/kim-acsac2020-slides.pdf",
+            "links": [
+                {
+                    "name": "FirmAE (Source Code)",
+                    "website": "https://github.com/pr0v3rbs/FirmAE"
+                },
+                {
                     "name": "Reported CVEs and PoC exploits",
                     "website": "https://github.com/pr0v3rbs/CVE"
+                }
+            ]
+        },
+        {
+            "name": "Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned",
+            "publisher": "arXiv",
+            "author": "Dongkwan Kim, Eunsoo Kim, Sang Kil Cha, Sooel Son, and Yongdae Kim",
+            "releaseDate": "2020-11-24",
+            "website": "pub/2020/kim-arxiv2020.pdf",
+            "links": [
+                {
+                    "name": "BinKit (benchmark)",
+                    "website": "https://github.com/SoftSec-KAIST/BinKit"
+                },
+                {
+                    "name": "TikNib (tool)",
+                    "website": "https://github.com/SoftSec-KAIST/TikNib"
                 }
             ]
         },
@@ -237,7 +272,7 @@
             "publisher": "IEEE Transactions on Mobile Computing (TMC'18)",
             "author": "Byeongdo Hong, Shinjo Park, Hongil Kim, Dongkwan Kim, Hyunwook Hong, Hyunwoo Choi, Jean-Pierre Seifert, Sung-Ju Lee, and Yongdae Kim",
             "releaseDate": "2018-02-12",
-            "website": "pub/2018/hong-tmc2018.pdf"
+            "website": "https://ieeexplore.ieee.org/document/8289343"
         },
         {
             "name": "When Cellular Networks Met IPv6: Security Problems of Middleboxes in IPv6 Cellular Networks",
@@ -395,17 +430,24 @@
     "references": [
         {
             "name": "Prof. Yongdae Kim",
-            "position": "KAIST System Security Lab. (SysSec)",
+            "position": "Professor, School of Electrical Engineering @ KAIST",
             "summary": "My advisor",
             "email": "yongdaek@kaist.ac.kr",
             "website": "http://syssec.kaist.ac.kr/~yongdaek"
         },
         {
             "name": "Prof. Sukyoung Ryu",
-            "position": "KAIST Programming Language Research Group (PLRG)",
+            "position": "Professor, School of Computing @ KAIST",
             "summary": "My previous advisor",
             "email": "sryu.cs@kaist.ac.kr",
-            "website": "http://plrg.kaist.ac.kr/ryu"
+            "website": "https://plrg.kaist.ac.kr/ryu"
+        },
+        {
+            "name": "Prof. Yeongjin Jang",
+            "position": "Professor, School of Computer Science @ Oregon State University",
+            "summary": "My Collaborator",
+            "email": "yeongjin.jang@oregonstate.edu",
+            "website": "https://www.unexploitable.systems/"
         }
     ]
 }
