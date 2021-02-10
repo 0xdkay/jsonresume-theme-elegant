@@ -16,6 +16,11 @@
         },
         "profiles": [
             {
+                "network": "Linkedin",
+                "username": "0xdkay",
+                "url": "https://www.linkedin.com/in/0xdkay"
+            },
+            {
                 "network": "Twitter",
                 "username": "0xdkay",
                 "url": "https://twitter.com/0xdkay"
@@ -33,7 +38,7 @@
             {
                 "network": "Instagram",
                 "username": "0xdkay",
-                "url": "https://www.instagram.com/0xdkay/"
+                "url": "https://www.instagram.com/0xdkay"
             }
         ]
     },
@@ -210,10 +215,14 @@
             "publisher": "Proceedings of the 2021 Annual Network and Distributed System Security Symposium (NDSS'21)",
             "author": "Dongkwan Kim*, Eunsoo Kim*, CheolJun Park, Insu Yun, and Yongdae Kim",
             "releaseDate": "2021-02-22",
-            "website": "",
-            "links": [
+            "website": "pub/2021/kim-ndss2021.pdf",
+            "sources": [
                 {
-                    "name": "BaseSpec (Source Code)",
+                    "name": "[Slides]",
+                    "website": "pub/2021/kim-ndss2021-slides.pdf"
+                },
+                {
+                    "name": "[Code]",
                     "website": "https://github.com/SysSec-KAIST/BaseSpec"
                 }
             ]
@@ -224,12 +233,17 @@
             "author": "Mingeun Kim, Dongkwan Kim, Eunsoo Kim, Suryeon Kim, Yeongjin Jang, and Yongdae Kim",
             "releaseDate": "2020-12-11",
             "website": "pub/2020/kim-acsac2020.pdf",
-            "slides": "pub/2020/kim-acsac2020-slides.pdf",
-            "links": [
+            "sources": [
                 {
-                    "name": "FirmAE (Source Code)",
-                    "website": "https://github.com/pr0v3rbs/FirmAE"
+                    "name": "[Slides]",
+                    "website": "pub/2020/kim-acsac2020-slides.pdf"
                 },
+                {
+                    "name": "[Code]",
+                    "website": "https://github.com/pr0v3rbs/FirmAE"
+                }
+            ],
+            "links": [
                 {
                     "name": "Reported CVEs and PoC exploits",
                     "website": "https://github.com/pr0v3rbs/CVE"
@@ -242,24 +256,29 @@
             "author": "Dongkwan Kim, Eunsoo Kim, Sang Kil Cha, Sooel Son, and Yongdae Kim",
             "releaseDate": "2020-11-24",
             "website": "pub/2020/kim-arxiv2020.pdf",
-            "links": [
+            "sources": [
                 {
-                    "name": "BinKit (benchmark)",
+                    "name": "[Benchmark]",
                     "website": "https://github.com/SoftSec-KAIST/BinKit"
                 },
                 {
-                    "name": "TikNib (tool)",
+                    "name": "[Tool]",
                     "website": "https://github.com/SoftSec-KAIST/TikNib"
                 }
             ]
         },
         {
             "name": "Who Spent My EOS? On the (In)Security of Resource Management of EOS.IO",
-            "publisher": "13th USENIX Workshop on Offensive Technologies (WOOT'19)",
+            "publisher": "Proceedings of the 13th USENIX Workshop on Offensive Technologies (WOOT'19)",
             "author": "Sangsup Lee, Daejun Kim, Dongkwan Kim, Sooel Son, and Yongdae Kim",
             "releaseDate": "2019-08-13",
             "website": "pub/2019/lee-woot2019.pdf",
-            "slides": "pub/2019/lee-woot2019-slides.pdf",
+            "sources": [
+                {
+                    "name": "[Slides]",
+                    "website": "pub/2019/lee-woot2019-slides.pdf"
+                }
+            ],
             "medias": [
                 {
                     "name": "CoinSpice",
@@ -283,19 +302,24 @@
         },
         {
             "name": "Pay As You Want: Bypassing Charging System in Operational Cellular Networks",
-            "publisher": "The 17th International Workshop on Information Security Applications (WISA'16)",
+            "publisher": "Proceedings of the 17th International Workshop on Information Security Applications (WISA'16)",
             "author": "Hyunwook Hong, Hongil Kim, Byeongdo Hong, Dongkwan Kim, Hyunwoo Choi, Eunkyu Lee and Yongdae Kim",
             "releaseDate": "2016-08-26",
             "website": "pub/2016/pay/hong-wisa2016.pdf"
         },
         {
             "name": "Breaking and Fixing VoLTE: Exploiting Hidden Data Channels and Mis-implementations",
-            "publisher": "Proceedings of the 22nd ACM Conference on Computer and Communications Security (ACM CCS'15)",
-            "author": "*Dongkwan Kim, *Hongil Kim, Minhee Kwon, Hyungseok Han, Yeongjin Jang, Dongsu Han, Taesoo Kim, and Yongdae Kim",
+            "publisher": "Proceedings of the 22nd ACM Conference on Computer and Communications Security (CCS'15)",
+            "author": "Dongkwan Kim*, Hongil Kim*, Minhee Kwon, Hyungseok Han, Yeongjin Jang, Dongsu Han, Taesoo Kim, and Yongdae Kim",
             "coauthor": true,
             "releaseDate": "2015-10-13",
             "website": "pub/2015/volte/kim-ccs2015.pdf",
-            "slides": "pub/2015/volte/kim-ccs2015-slides.pdf",
+            "sources": [
+                {
+                    "name": "[Slides]",
+                    "website": "pub/2015/volte/kim-ccs2015-slides.pdf"
+                }
+            ],
             "medias": [
                 {
                     "name": "CVE-2015-6614",
@@ -349,19 +373,30 @@
         },
         {
             "name": "BurnFit: Analyzing and Exploiting Wearable Devices",
-            "publisher": "The 16th International Workshop on Information Security Applications (WISA'15)",
+            "publisher": "Proceedings of the 16th International Workshop on Information Security Applications (WISA'15)",
             "author": "Dongkwan Kim, Suwan Park, Kibum Choi, Yongdae Kim",
             "releaseDate": "2015-08-26",
             "website": "pub/2015/burnfit/kim-wisa2015.pdf",
+            "sources": [
+                {
+                    "name": "[Slides]",
+                    "website": "pub/2015/burnfit/kim-wisa2015-slides.pdf"
+                }
+            ],
             "bestpaper": true
         },
         {
             "name": "Rocking Drones with Intentional Sound Noise on Gyroscopic Sensors",
-            "publisher": "Proceedings of the 24th USENIX Security Symposium (Usenix Security'15)",
+            "publisher": "Proceedings of the 24th USENIX Security Symposium (Security'15)",
             "author": "Yunmok Son, Hocheol Shin, Dongkwan Kim, Youngseok Park, Juhwan Noh, Kibum Choi, Jungwoo Choi, and Yongdae Kim",
             "releaseDate": "2015-08-14",
             "website": "pub/2015/rocking_drones/son-sec2015.pdf",
-            "slides": "pub/2015/rocking_drones/son-sec2015-slides.pdf",
+            "sources": [
+                {
+                    "name": "[Slides]",
+                    "website": "pub/2015/rocking_drones/son-sec2015-slides.pdf"
+                }
+            ],
             "medias": [
                 {
                     "name": "Popular Science",
@@ -407,7 +442,7 @@
         },
         {
             "name": "Analyzing Security of Korean USIM-based PKI Certificate Service",
-            "publisher": "The 15th International Workshop on Information Security Applications (WISA'14)",
+            "publisher": "Proceedings of the 15th International Workshop on Information Security Applications (WISA'14)",
             "author": "Shinjo Park, Suwan Park, Insu Yun, Dongkwan Kim, Yongdae Kim",
             "releaseDate": "2014-08-26",
             "website": "pub/2014/park-wisa2014.pdf"
@@ -418,13 +453,6 @@
             "author": "Myounghee Han, Dongkwan Kim, Wang-Yuhl Oh, and Sukyoung Ryu",
             "releaseDate": "2013-02-02",
             "website": "pub/2013/han-bios2013.pdf"
-        },
-        {
-            "name": "High-speed automatic segmentation of intravascular stent struts in optical coherence tomography images",
-            "publisher": "International Forum on Medical Imaging in Asia 2012 (IFMIA'12)",
-            "author": "Myounghee Han, Dongkwan Kim, Wang-Yuhl Oh, and Sukyoung Ryu",
-            "releaseDate": "2012-11-16",
-            "website": "pub/2012/han-ifmia2012.pdf"
         }
     ],
     "references": [

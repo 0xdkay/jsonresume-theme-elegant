@@ -2,6 +2,8 @@
 
 Responsive theme for [JsonResume](https://jsonresume.org/) inspired by card layouts.
 
+Customized version of Elegant Theme.
+
 [Theme Preview](http://themes.jsonresume.org/elegant)
 
 ### Markdown Supported
@@ -9,8 +11,6 @@ Only in the following places of now `resume.basics.summary`, `work[0].summary`, 
 
 ### Social Profiles
 The profiles are shown in the order in which they are specified in the `basics.profiles` array. By default, only 5 profiles are shown & others are revealed on demand.
-
-![Profile Section](https://raw.githubusercontent.com/mudassir0909/jsonresume-theme-elegant/master/screenshots/profile.png)
 
 #### Supported Profiles
 * angellist

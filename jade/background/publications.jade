@@ -26,6 +26,11 @@ unless _.isEmpty(resume.publications)
                     |&nbsp;
                     a(href=publication.slides, target="_blank")= "[Slides]"
 
+                  unless _.isEmpty(publication.sources)
+                    - each source in publication.sources
+                      |&nbsp;
+                      a(href=source.website, target="_blank")= source.name
+
                   if publication.bestpaper
                     |&nbsp;
                     span.label.label-best= "Best Paper"
