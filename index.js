@@ -168,7 +168,7 @@ function render(resume) {
             publication_info.releaseDate = utils.getFormattedDate(date, 'MMM DD, YYYY');
         }
 
-        publication_info.author = publication_info.author.replace("Dongkwan Kim", "<b>Dongkwan Kim</b>")
+        publication_info.author = publication_info.author.replace("Dongkwan Kim", "<u><b>Dongkwan Kim</b></u>")
     });
 
     return jade.renderFile(__dirname + '/index.jade', {
