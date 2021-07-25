@@ -58,7 +58,7 @@
             "area": "Electrical Engineering",
             "studyType": "Ph.D",
             "startDate": "2016-03-01",
-            "endDate": "2019-02-20"
+            "endDate": "2022-02-20"
         },
         {
             "institution": "KAIST",
@@ -211,10 +211,17 @@
     ],
     "publications": [
         {
+            "name": "Enabling the Large-Scale Emulation of Internet of Things Firmware With Heuristic Workarounds",
+            "publisher": "IEEE Security & Privacy",
+            "author": "Dongkwan Kim, Eunsoo Kim, Mingeun Kim, Yeongjin Jang, Yongdae Kim",
+            "releaseDate": "2021-05-14",
+            "website": "https://ieeexplore.ieee.org/abstract/document/9431371"
+        },
+        {
             "name": "BaseSpec: Comparative Analysis of Baseband Software and Cellular Specifications for L3 Protocols",
             "publisher": "Proceedings of the 2021 Annual Network and Distributed System Security Symposium (NDSS'21)",
             "author": "Dongkwan Kim*, Eunsoo Kim*, CheolJun Park, Insu Yun, and Yongdae Kim",
-            "releaseDate": "2021-02-22",
+            "releaseDate": "2021-02-24",
             "website": "pub/2021/kim-ndss2021.pdf",
             "sources": [
                 {
@@ -255,7 +262,7 @@
             "publisher": "arXiv",
             "author": "Dongkwan Kim, Eunsoo Kim, Sang Kil Cha, Sooel Son, and Yongdae Kim",
             "releaseDate": "2020-11-24",
-            "website": "pub/2020/kim-arxiv2020.pdf",
+            "website": "https://arxiv.org/abs/2011.10749",
             "sources": [
                 {
                     "name": "[Benchmark]",

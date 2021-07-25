@@ -244,6 +244,9 @@
   border: 1px solid #ff4444;
   margin-right: 1px;
 }
+a.source {
+  color: #ff6464;
+}
 a.media {
   color: #9090c0;
   margin-left: 5px;
