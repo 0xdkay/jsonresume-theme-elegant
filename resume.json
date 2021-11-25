@@ -6,6 +6,7 @@
         "email": "dkay@kaist.ac.kr",
         "tel": "(+82) 42-350-7530",
         "website": "https://0xdkay.me",
+        "cv" : "pub/cv.pdf",
         "summary": "Dongkwan Kim is a Ph.D candidate at the School of Electrical Engineering, KAIST. His research interest covers software, embedded/cyber-physical systems, and cellular networks. Recently, He is systematizing bug discovery of IoT device firmware at a large scale. He has analysis experience in automobiles (smart cars), commercial drones, cellular infrastructures, smart TVs, routers, IP cameras, and femtocells. He also participated in hacking CTFs, such as DEFCON, Codegate, Whitehat Contest, or HDCON, as a member of KAIST GoN and KaisHack. Meanwhile, he analyzed several intrusion cases as an external security consultant at KAIST Computer Emergency Response Team (CERT). He holds BS and MS from KAIST in CS and EE (2014, 2016), respectively.",
         "location": {
             "address": "201 N26 (CHiPS) Building, KAIST 291 Deahak-ro",
@@ -211,9 +212,22 @@
     ],
     "publications": [
         {
+            "name": "Watching the Watchers: Practical Video Identification Attack in LTE Networks",
+            "publisher": "Proceedings of the 31st USENIX Security Symposium (Security'22)",
+            "author": "Sangwook Bae, Mincheol Son, Dongkwan Kim, CheolJun Park, Jiho Lee, Sooel Son, and Yongdae Kim",
+            "releaseDate": "2022-08-10",
+            "website": "https://www.usenix.org/system/files/sec22summer_bae.pdf",
+            "sources": [
+                {
+                    "name": "[Site]",
+                    "website": "https://sites.google.com/view/sec21-wtw/watching-the-watchers"
+                }
+            ]
+        },
+        {
             "name": "Enabling the Large-Scale Emulation of Internet of Things Firmware With Heuristic Workarounds",
             "publisher": "IEEE Security & Privacy",
-            "author": "Dongkwan Kim, Eunsoo Kim, Mingeun Kim, Yeongjin Jang, Yongdae Kim",
+            "author": "Dongkwan Kim, Eunsoo Kim, Mingeun Kim, Yeongjin Jang, and Yongdae Kim",
             "releaseDate": "2021-05-14",
             "website": "https://ieeexplore.ieee.org/abstract/document/9431371"
         },
