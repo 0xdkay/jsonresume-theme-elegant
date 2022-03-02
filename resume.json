@@ -7,7 +7,7 @@
         "tel": "(+82) 42-350-7530",
         "website": "https://0xdkay.me",
         "cv" : "pub/cv.pdf",
-        "summary": "Dongkwan Kim is a Ph.D candidate at the School of Electrical Engineering, KAIST. His research interest covers software, embedded/cyber-physical systems, and cellular networks. Recently, He is systematizing bug discovery of IoT device firmware at a large scale. He has analysis experience in automobiles (smart cars), commercial drones, cellular infrastructures, smart TVs, routers, IP cameras, and femtocells. He also participated in hacking CTFs, such as DEFCON, Codegate, Whitehat Contest, or HDCON, as a member of KAIST GoN and KaisHack. Meanwhile, he analyzed several intrusion cases as an external security consultant at KAIST Computer Emergency Response Team (CERT). He holds BS and MS from KAIST in CS and EE (2014, 2016), respectively.",
+        "summary": "Dongkwan Kim is a freelance researcher. His research objective is to secure the Internet of Things (IoT) ecosystem. To achieve this, he has been researching ways to systematize vulnerability analysis of IoT devices. As a case study, he investigated (1) smart home systems (e.g., wired/wireless routers, IP cameras, smart TVs), (2) mobile systems (e.g., Android applications, baseband software, wearable devices), (3) cellular infrastructures (e.g., specifications, charging policy, VoLTE, femtocells), (4) smart infrastructure (e.g., automobiles, commercial drones), and (5) blockchain systems (e.g., Bitcoin, Ethereum, EOS). To broaden his horizons, he has competed in various hacking contests globally: (1) U.S. (e.g., DEFCON, Plaid CTF), (2) South Korea (e.g., Codegate, Whitehat Contest, and HDCON), and (3) China (e.g., 0CTF). Additionally, since 2010, he has assisted KAIST’s Computer Emergency Response Team (CERT) in investigating real-time/postmortem intrusion cases. He received his BS in Computer Science (2014), MS in Electrical Engineering (2016), and PhD in Electrical Engineering (2022) all from KAIST.",
         "location": {
             "address": "201 N26 (CHiPS) Building, KAIST 291 Deahak-ro",
             "postalCode": "34141",
@@ -57,14 +57,14 @@
         {
             "institution": "KAIST",
             "area": "Electrical Engineering",
-            "studyType": "Ph.D",
+            "studyType": "Ph.D.",
             "startDate": "2016-03-01",
-            "endDate": "2022-02-20"
+            "endDate": "2022-02-18"
         },
         {
             "institution": "KAIST",
             "area": "Electrical Engineering",
-            "studyType": "Master",
+            "studyType": "M.S.",
             "startDate": "2014-03-03",
             "endDate": "2016-02-19"
         },
@@ -212,6 +212,23 @@
     ],
     "publications": [
         {
+            "name": "Improving Large-Scale Vulnerability Analysis of IoT Devices with Heuristics and Binary Code Similarity",
+            "publisher": "Ph.D. Thesis",
+            "author": "Dongkwan Kim",
+            "releaseDate": "2022-02-18",
+            "website": "pub/2022/kim-phdthesis2022.pdf",
+            "sources": [
+                {
+                    "name": "[Slides]",
+                    "website": "pub/2022/kim-phdthesis2022-slides.pdf"
+                },
+                {
+                    "name": "[Code]",
+                    "website": "https://github.com/SysSec-KAIST/FirmKit"
+                }
+            ]
+        },
+        {
             "name": "Watching the Watchers: Practical Video Identification Attack in LTE Networks",
             "publisher": "Proceedings of the 31st USENIX Security Symposium (Security'22)",
             "author": "Sangwook Bae, Mincheol Son, Dongkwan Kim, CheolJun Park, Jiho Lee, Sooel Son, and Yongdae Kim",
@@ -327,6 +344,13 @@
             "author": "Hyunwook Hong, Hongil Kim, Byeongdo Hong, Dongkwan Kim, Hyunwoo Choi, Eunkyu Lee and Yongdae Kim",
             "releaseDate": "2016-08-26",
             "website": "pub/2016/pay/hong-wisa2016.pdf"
+        },
+        {
+            "name": "Dissecting VoLTE: Exploiting Free Data Channels and Security Problems",
+            "publisher": "M.S. Thesis",
+            "author": "Dongkwan Kim",
+            "releaseDate": "2016-02-19",
+            "website": "pub/2016/kim-msthesis2016.pdf"
         },
         {
             "name": "Breaking and Fixing VoLTE: Exploiting Hidden Data Channels and Mis-implementations",
