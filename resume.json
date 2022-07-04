@@ -1,13 +1,13 @@
 {
     "basics": {
         "name": "Dongkwan Kim",
-        "label": "Ph.D Student",
+        "label": "Security Researcher",
         "picture": "dkay.jpg",
         "email": "dkay@kaist.ac.kr",
         "tel": "(+82) 42-350-7530",
         "website": "https://0xdkay.me",
         "cv" : "pub/cv.pdf",
-        "summary": "Dongkwan Kim is a freelance researcher. His research objective is to secure the Internet of Things (IoT) ecosystem. To achieve this, he has been researching ways to systematize vulnerability analysis of IoT devices. As a case study, he investigated (1) smart home systems (e.g., wired/wireless routers, IP cameras, smart TVs), (2) mobile systems (e.g., Android applications, baseband software, wearable devices), (3) cellular infrastructures (e.g., specifications, charging policy, VoLTE, femtocells), (4) smart infrastructure (e.g., automobiles, commercial drones), and (5) blockchain systems (e.g., Bitcoin, Ethereum, EOS). To broaden his horizons, he has competed in various hacking contests globally: (1) U.S. (e.g., DEFCON, Plaid CTF), (2) South Korea (e.g., Codegate, Whitehat Contest, and HDCON), and (3) China (e.g., 0CTF). Additionally, since 2010, he has assisted KAIST’s Computer Emergency Response Team (CERT) in investigating real-time/postmortem intrusion cases. He received his BS in Computer Science (2014), MS in Electrical Engineering (2016), and PhD in Electrical Engineering (2022) all from KAIST.",
+        "summary": "Dongkwan Kim is a passionate, self-motivated security researcher. His research objective is to secure the Internet of Things (IoT) ecosystem. To achieve this, he has been researching ways to systematize vulnerability analysis of IoT devices. As a case study, he investigated (1) smart home systems (e.g., wired/wireless routers, IP cameras, smart TVs), (2) mobile systems (e.g., Android applications, baseband software, wearable devices), (3) cellular infrastructures (e.g., specifications, charging policy, VoLTE, femtocells), (4) smart infrastructure (e.g., automobiles, commercial drones), and (5) blockchain systems (e.g., Bitcoin, Ethereum, EOS). To broaden his horizons, he has competed in various hacking contests globally: (1) U.S. (e.g., DEFCON, Plaid CTF), (2) South Korea (e.g., Codegate, Whitehat Contest, and HDCON), and (3) China (e.g., 0CTF). Additionally, since 2010, he has assisted KAIST’s Computer Emergency Response Team (CERT) in investigating real-time/postmortem intrusion cases. He received his BS in Computer Science (2014), MS in Electrical Engineering (2016), and PhD in Electrical Engineering (2022) all from KAIST.",
         "location": {
             "address": "201 N26 (CHiPS) Building, KAIST 291 Deahak-ro",
             "postalCode": "34141",
@@ -212,6 +212,36 @@
     ],
     "publications": [
         {
+            "name": "Watching the Watchers: Practical Video Identification Attack in LTE Networks",
+            "publisher": "Proceedings of the 31st USENIX Security Symposium (Security'22)",
+            "author": "Sangwook Bae, Mincheol Son, Dongkwan Kim, CheolJun Park, Jiho Lee, Sooel Son, and Yongdae Kim",
+            "releaseDate": "2022-08-10",
+            "website": "https://www.usenix.org/system/files/sec22summer_bae.pdf",
+            "sources": [
+                {
+                    "name": "[Site]",
+                    "website": "https://sites.google.com/view/sec21-wtw/watching-the-watchers"
+                }
+            ]
+        },
+        {
+            "name": "Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned",
+            "publisher": "IEEE Transactions on Software Engineering (TSE'22)",
+            "author": "Dongkwan Kim, Eunsoo Kim, Sang Kil Cha, Sooel Son, and Yongdae Kim",
+            "releaseDate": "2022-07-01",
+            "website": "https://ieeexplore.ieee.org/document/9813408",
+            "sources": [
+                {
+                    "name": "[Benchmark]",
+                    "website": "https://github.com/SoftSec-KAIST/BinKit"
+                },
+                {
+                    "name": "[Tool]",
+                    "website": "https://github.com/SoftSec-KAIST/TikNib"
+                }
+            ]
+        },
+        {
             "name": "Improving Large-Scale Vulnerability Analysis of IoT Devices with Heuristics and Binary Code Similarity",
             "publisher": "Ph.D. Thesis",
             "author": "Dongkwan Kim",
@@ -225,19 +255,6 @@
                 {
                     "name": "[Code]",
                     "website": "https://github.com/SysSec-KAIST/FirmKit"
-                }
-            ]
-        },
-        {
-            "name": "Watching the Watchers: Practical Video Identification Attack in LTE Networks",
-            "publisher": "Proceedings of the 31st USENIX Security Symposium (Security'22)",
-            "author": "Sangwook Bae, Mincheol Son, Dongkwan Kim, CheolJun Park, Jiho Lee, Sooel Son, and Yongdae Kim",
-            "releaseDate": "2022-08-10",
-            "website": "https://www.usenix.org/system/files/sec22summer_bae.pdf",
-            "sources": [
-                {
-                    "name": "[Site]",
-                    "website": "https://sites.google.com/view/sec21-wtw/watching-the-watchers"
                 }
             ]
         },
@@ -285,23 +302,6 @@
                 {
                     "name": "Reported CVEs and PoC exploits",
                     "website": "https://github.com/pr0v3rbs/CVE"
-                }
-            ]
-        },
-        {
-            "name": "Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned",
-            "publisher": "arXiv",
-            "author": "Dongkwan Kim, Eunsoo Kim, Sang Kil Cha, Sooel Son, and Yongdae Kim",
-            "releaseDate": "2020-11-24",
-            "website": "https://arxiv.org/abs/2011.10749",
-            "sources": [
-                {
-                    "name": "[Benchmark]",
-                    "website": "https://github.com/SoftSec-KAIST/BinKit"
-                },
-                {
-                    "name": "[Tool]",
-                    "website": "https://github.com/SoftSec-KAIST/TikNib"
                 }
             ]
         },

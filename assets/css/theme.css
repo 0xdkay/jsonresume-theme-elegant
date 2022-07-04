@@ -570,8 +570,8 @@ body {
   }
 }
 .profile-pic img {
-  width: 100px;
-  height: 100px;
+  width: 112px;
+  height: 150px;
 }
 @media (max-width: 992px) {
   .name {
