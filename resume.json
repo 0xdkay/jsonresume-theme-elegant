@@ -9,11 +9,11 @@
         "cv" : "pub/cv.pdf",
         "summary": "Dongkwan Kim is a passionate, self-motivated security researcher. His research objective is to secure the Internet of Things (IoT) ecosystem. To achieve this, he has been researching ways to systematize vulnerability analysis of IoT devices. As a case study, he investigated (1) smart home systems (e.g., wired/wireless routers, IP cameras, smart TVs), (2) mobile systems (e.g., Android applications, baseband software, wearable devices), (3) cellular infrastructures (e.g., specifications, charging policy, VoLTE, femtocells), (4) smart infrastructure (e.g., automobiles, commercial drones), and (5) blockchain systems (e.g., Bitcoin, Ethereum, EOS). To broaden his horizons, he has competed in various hacking contests globally: (1) U.S. (e.g., DEFCON, Plaid CTF), (2) South Korea (e.g., Codegate, Whitehat Contest, and HDCON), and (3) China (e.g., 0CTF). Additionally, since 2010, he has assisted KAIST’s Computer Emergency Response Team (CERT) in investigating real-time/postmortem intrusion cases. He received his BS in Computer Science (2014), MS in Electrical Engineering (2016), and PhD in Electrical Engineering (2022) all from KAIST.",
         "location": {
-            "address": "201 N26 (CHiPS) Building, KAIST 291 Deahak-ro",
-            "postalCode": "34141",
-            "city": "Yuseong",
+            "address": "Samsung SDS, 125, Olympic-ro 35-gil",
+            "postalCode": "05510",
+            "city": "Songpa-gu",
             "countryCode": "KR",
-            "region": "Daejeon"
+            "region": "Seoul"
         },
         "profiles": [
             {
@@ -53,6 +53,30 @@
             "fluency": "Foreign language"
         }
     ],
+    "work": [
+        {
+            "company": "Advanced Penetration Test Group, Samsung SDS",
+            "position": "Security Engineer",
+            "startDate": "2022-08-01",
+            "summary": "We exploit any device/software/framework/platform from Samsung."
+        },
+        {
+            "company": "Pinion Industries",
+            "position": "Intern",
+            "startDate": "2013-12-26",
+            "endDate": "2014-02-28",
+            "summary": "Pinion Industries hack automobiles to eliminate vulnerabilities. We exploited various components in a car including network systems, AVN, telematics, smartkey, and ECUs. Members of Pinion Industries are now working for Hyundai."
+        },
+        {
+            "company": "KAIST Computer Emergency Response Team (CERT)",
+            "position": "Student Senior",
+            "startDate": "2010-09-01",
+            "endDate": "2012-12-31",
+            "highlights": [
+                "Student Team Leader (2011. 9. 1 ~ 2012. 8. 31)"
+            ]
+        }
+    ],
     "education": [
         {
             "institution": "KAIST",
@@ -81,24 +105,6 @@
             "studyType": "Bachelor",
             "startDate": "2010-02-01",
             "endDate": "2014-02-21"
-        }
-    ],
-    "work": [
-        {
-            "company": "Pinion Industries",
-            "position": "Intern",
-            "startDate": "2013-12-26",
-            "endDate": "2014-02-28",
-            "summary": "Pinion Industries was a company that hacks automobiles to eliminate vulnerabilities. We exploited various components in a car including network systems, AVN, telematics, smartkey, and ECUs. Members of Pinion Industries are now working for Hyundai."
-        },
-        {
-            "company": "KAIST Computer Emergency Response Team (CERT)",
-            "position": "Student Senior",
-            "startDate": "2010-09-01",
-            "endDate": "2012-12-31",
-            "highlights": [
-                "Student Team Leader (2011. 9. 1 ~ 2012. 8. 31)"
-            ]
         }
     ],
     "interests": [
@@ -131,7 +137,7 @@
     ],
     "awards": [
         {
-            "title": "Finalist to Defcon 28 CTF (team. KaisHack GoN)",
+            "title": "Finalist to Defcon 27 CTF (team. KaisHack GoN)",
             "date": "2019-08-09"
         },
         {
@@ -212,11 +218,37 @@
     ],
     "publications": [
         {
+            "name": "Un-Rocking Drones: Foundations of Acoustic Injection Attacks and Recovery Thereof",
+            "publisher": "Proceedings of the 2023 Annual Network and Distributed System Security Symposium (NDSS'23)",
+            "author": "Jinseob Jung, Dongkwan Kim, Joonha Jang, Juhwan Noh, Changhun Song, and Yongdae Kim",
+            "releaseDate": "2023-03-02",
+            "website": "pub/2023/jung-ndss23-unrocker.pdf",
+            "sources": [
+                {
+                    "name": "[Site]",
+                    "website": "https://sites.google.com/view/unrocker"
+                }
+            ]
+        },
+        {
+            "name": "Paralyzing Drones via EMI Signal Injection on Sensory Communication Channels",
+            "publisher": "Proceedings of the 2023 Annual Network and Distributed System Security Symposium (NDSS'23)",
+            "author": "Joonha Jang*, ManGi Cho*, Jaehoon Kim, Dongkwan Kim , and Yongdae Kim",
+            "releaseDate": "2023-03-02",
+            "website": "pub/2023/jang-ndss23-paralyzing.pdf",
+            "sources": [
+                {
+                    "name": "[Site]",
+                    "website": "https://sites.google.com/view/paralyzing-drones-via-emi"
+                }
+            ]
+        },
+        {
             "name": "Watching the Watchers: Practical Video Identification Attack in LTE Networks",
             "publisher": "Proceedings of the 31st USENIX Security Symposium (Security'22)",
             "author": "Sangwook Bae, Mincheol Son, Dongkwan Kim, CheolJun Park, Jiho Lee, Sooel Son, and Yongdae Kim",
             "releaseDate": "2022-08-10",
-            "website": "https://www.usenix.org/system/files/sec22summer_bae.pdf",
+            "website": "pub/2022/bae-sec22-watching.pdf",
             "sources": [
                 {
                     "name": "[Site]",
@@ -229,7 +261,7 @@
             "publisher": "IEEE Transactions on Software Engineering (TSE'22)",
             "author": "Dongkwan Kim, Eunsoo Kim, Sang Kil Cha, Sooel Son, and Yongdae Kim",
             "releaseDate": "2022-07-01",
-            "website": "https://ieeexplore.ieee.org/document/9813408",
+            "website": "pub/2022/kim-tse22-binkit.pdf",
             "sources": [
                 {
                     "name": "[Benchmark]",
@@ -329,7 +361,7 @@
             "publisher": "IEEE Transactions on Mobile Computing (TMC'18)",
             "author": "Byeongdo Hong, Shinjo Park, Hongil Kim, Dongkwan Kim, Hyunwook Hong, Hyunwoo Choi, Jean-Pierre Seifert, Sung-Ju Lee, and Yongdae Kim",
             "releaseDate": "2018-02-12",
-            "website": "https://ieeexplore.ieee.org/document/8289343"
+            "website": "pub/2018/hong-tmc2018.pdf"
         },
         {
             "name": "When Cellular Networks Met IPv6: Security Problems of Middleboxes in IPv6 Cellular Networks",
@@ -503,24 +535,39 @@
     "references": [
         {
             "name": "Prof. Yongdae Kim",
-            "position": "Professor, School of Electrical Engineering @ KAIST",
-            "summary": "My advisor",
+            "position": "Professor of Electrical Engineering (EE) and Graduate School of Information Security (GSIS), KAIST",
             "email": "yongdaek@kaist.ac.kr",
-            "website": "http://syssec.kaist.ac.kr/~yongdaek"
+            "website": "https://syssec.kaist.ac.kr/~yongdaek"
         },
         {
-            "name": "Prof. Sukyoung Ryu",
-            "position": "Professor, School of Computing @ KAIST",
-            "summary": "My previous advisor",
-            "email": "sryu.cs@kaist.ac.kr",
-            "website": "https://plrg.kaist.ac.kr/ryu"
+            "name": "Prof. Sang Kil Cha",
+            "position": "Director of Cyber Security Research Center (CSRC), KAIST, and Associate Professor of School of Computing (CS) and GSIS, KAIST",
+            "email": "sangkilc@kaist.ac.kr",
+            "website": "https://softsec.kaist.ac.kr/~sangkilc"
+        },
+        {
+            "name": "Prof. Sooel Son",
+            "position": "Associate Professor of CS and GSIS, KAIST",
+            "email": "sl.son@kaist.ac.kr",
+            "website": "https://sites.google.com/site/ssonkaist"
         },
         {
             "name": "Prof. Yeongjin Jang",
-            "position": "Professor, School of Computer Science @ Oregon State University",
-            "summary": "My Collaborator",
+            "position": "Assistant Professor of CS, Oregon State University",
             "email": "yeongjin.jang@oregonstate.edu",
-            "website": "https://www.unexploitable.systems/"
+            "website": "https://www.unexploitable.systems"
+        },
+        {
+            "name": "Prof. Insu Yun",
+            "position": "Assistant Professor of EE and GSIS, KAIST",
+            "email": "insuyun@kaist.ac.kr",
+            "website": "https://insuyun.github.io/"
+        },
+        {
+            "name": "Prof. Sukyoung Ryu",
+            "position": "Head of CS, KAIST",
+            "email": "sryu.cs@kaist.ac.kr",
+            "website": "https://plrg.kaist.ac.kr/ryu"
         }
     ]
 }

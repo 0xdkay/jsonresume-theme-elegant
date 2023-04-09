@@ -30,8 +30,8 @@ function getFloatingNavItems(resume) {
     var floating_nav_items = [
         {label: 'Bio', target: 'about', icon: 'board', requires: 'basics.summary'},
         {label: 'Research Interests', target: 'interests', icon: 'heart', requires: 'interests'},
-        {label: 'Education', target: 'education', icon: 'graduation-cap', requires: 'education'},
         {label: 'Work Experience', target: 'work-experience', icon: 'office', requires: 'work'},
+        {label: 'Education', target: 'education', icon: 'graduation-cap', requires: 'education'},
         {label: 'Volunteer Work', target: 'volunteer-work', icon: 'child', requires: 'volunteer'},
         {label: 'Awards', target: 'awards', icon: 'trophy', requires: 'awards'},
         {label: 'Projects', target: 'projects', icon: 'list', requires: 'projects'},
@@ -74,24 +74,6 @@ function render(resume) {
     resume.basics.top_five_profiles = resume.basics.profiles.slice(0, 5);
     resume.basics.remaining_profiles = resume.basics.profiles.slice(5);
 
-
-    _.each(resume.education, function(education_info) {
-        _.each(['startDate', 'endDate'], function(type) {
-            var date = education_info[type];
-
-            if (date) {
-                education_info[type] = utils.getFormattedDate(date);
-
-                var end_date = new Date(date);
-                var current_date = new Date();
-
-                if (end_date > current_date) {
-                  education_info[type] += " (expected)";
-                }
-            }
-        });
-    });
-
     _.each(resume.work, function(work_info) {
         var end_date;
         var start_date = moment(work_info.startDate, "YYYY-MM-DD");
@@ -108,6 +90,23 @@ function render(resume) {
 
             work_info.duration = moment.preciseDiff(start_date, end_date);
         }
+    });
+
+    _.each(resume.education, function(education_info) {
+        _.each(['startDate', 'endDate'], function(type) {
+            var date = education_info[type];
+
+            if (date) {
+                education_info[type] = utils.getFormattedDate(date);
+
+                var end_date = new Date(date);
+                var current_date = new Date();
+
+                if (end_date > current_date) {
+                  education_info[type] += " (expected)";
+                }
+            }
+        });
     });
 
     _.each(resume.projects, function(project_info) {
