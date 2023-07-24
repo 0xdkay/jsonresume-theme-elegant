@@ -4,7 +4,6 @@
         "label": "Security Researcher",
         "picture": "dkay.jpg",
         "email": "dkay@kaist.ac.kr",
-        "tel": "(+82) 42-350-7530",
         "website": "https://0xdkay.me",
         "cv" : "pub/cv.pdf",
         "summary": "Dongkwan Kim is a passionate, self-motivated security researcher. His research objective is to secure the Internet of Things (IoT) ecosystem. To achieve this, he has been researching ways to systematize vulnerability analysis of IoT devices. As a case study, he investigated (1) smart home systems (e.g., wired/wireless routers, IP cameras, smart TVs), (2) mobile systems (e.g., Android applications, baseband software, wearable devices), (3) cellular infrastructures (e.g., specifications, charging policy, VoLTE, femtocells), (4) smart infrastructure (e.g., automobiles, commercial drones), and (5) blockchain systems (e.g., Bitcoin, Ethereum, EOS). To broaden his horizons, he has competed in various hacking contests globally: (1) U.S. (e.g., DEFCON, Plaid CTF), (2) South Korea (e.g., Codegate, Whitehat Contest, and HDCON), and (3) China (e.g., 0CTF). Additionally, since 2010, he has assisted KAIST’s Computer Emergency Response Team (CERT) in investigating real-time/postmortem intrusion cases. He received his BS in Computer Science (2014), MS in Electrical Engineering (2016), and PhD in Electrical Engineering (2022) all from KAIST.",
@@ -218,6 +217,19 @@
     ],
     "publications": [
         {
+            "name": "BaseComp: A Comparative Analysis for Integrity Protection in Cellular Baseband Software",
+            "publisher": "Proceedings of the 32st USENIX Security Symposium (Security'23)",
+            "author": "Eunsoo Kim*, Min Woo Baek*, CheolJun Park, Dongkwan Kim, Yongdae Kim, Insu Yun",
+            "releaseDate": "2023-08-10",
+            "website": "#",
+            "sources": [
+                {
+                    "name": "[Code]",
+                    "website": "https://github.com/kaist-hacking/BaseComp"
+                }
+            ]
+        },
+        {
             "name": "Un-Rocking Drones: Foundations of Acoustic Injection Attacks and Recovery Thereof",
             "publisher": "Proceedings of the 2023 Annual Network and Distributed System Security Symposium (NDSS'23)",
             "author": "Jinseob Jung, Dongkwan Kim, Joonha Jang, Juhwan Noh, Changhun Song, and Yongdae Kim",
@@ -227,6 +239,10 @@
                 {
                     "name": "[Site]",
                     "website": "https://sites.google.com/view/unrocker"
+                },
+                {
+                    "name": "[Code & Data]",
+                    "website": "https://github.com/jinseobjeong/UnRocker"
                 }
             ]
         },
