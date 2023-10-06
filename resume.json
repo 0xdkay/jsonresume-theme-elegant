@@ -221,8 +221,12 @@
             "publisher": "Proceedings of the 32st USENIX Security Symposium (Security'23)",
             "author": "Eunsoo Kim*, Min Woo Baek*, CheolJun Park, Dongkwan Kim, Yongdae Kim, Insu Yun",
             "releaseDate": "2023-08-10",
-            "website": "#",
+            "website": "pub/2023/kim-sec23-basecomp.pdf",
             "sources": [
+                {
+                    "name": "[Slides]",
+                    "website": "pub/2023/kim-sec23-basecomp-slides.pdf"
+                },
                 {
                     "name": "[Code]",
                     "website": "https://github.com/kaist-hacking/BaseComp"
@@ -236,6 +240,10 @@
             "releaseDate": "2023-03-02",
             "website": "pub/2023/jung-ndss23-unrocker.pdf",
             "sources": [
+                {
+                    "name": "[Slides]",
+                    "website": "pub/2023/jung-ndss23-unrocker-slides.pdf"
+                },
                 {
                     "name": "[Site]",
                     "website": "https://sites.google.com/view/unrocker"
@@ -254,6 +262,10 @@
             "website": "pub/2023/jang-ndss23-paralyzing.pdf",
             "sources": [
                 {
+                    "name": "[Slides]",
+                    "website": "pub/2023/jang-ndss23-paralyzing-slides.pdf"
+                },
+                {
                     "name": "[Site]",
                     "website": "https://sites.google.com/view/paralyzing-drones-via-emi"
                 }
@@ -266,6 +278,10 @@
             "releaseDate": "2022-08-10",
             "website": "pub/2022/bae-sec22-watching.pdf",
             "sources": [
+                {
+                    "name": "[Slides]",
+                    "website": "pub/2022/bae-sec22-watching-slides.pdf"
+                },
                 {
                     "name": "[Site]",
                     "website": "https://sites.google.com/view/sec21-wtw/watching-the-watchers"
