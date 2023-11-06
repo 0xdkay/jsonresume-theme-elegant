@@ -6,7 +6,7 @@
         "email": "dkay@kaist.ac.kr",
         "website": "https://0xdkay.me",
         "cv" : "pub/cv.pdf",
-        "summary": "Dongkwan Kim is a passionate, self-motivated security researcher. His research objective is to secure the Internet of Things (IoT) ecosystem. To achieve this, he has been researching ways to systematize vulnerability analysis of IoT devices. As a case study, he investigated (1) smart home systems (e.g., wired/wireless routers, IP cameras, smart TVs), (2) mobile systems (e.g., Android applications, baseband software, wearable devices), (3) cellular infrastructures (e.g., specifications, charging policy, VoLTE, femtocells), (4) smart infrastructure (e.g., automobiles, commercial drones), and (5) blockchain systems (e.g., Bitcoin, Ethereum, EOS). To broaden his horizons, he has competed in various hacking contests globally: (1) U.S. (e.g., DEFCON, Plaid CTF), (2) South Korea (e.g., Codegate, Whitehat Contest, and HDCON), and (3) China (e.g., 0CTF). Additionally, since 2010, he has assisted KAIST Computer Emergency Response Team (CERT) for investigating real-time/postmortem intrusion cases. He received his BS in Computer Science (2014), MS in Electrical Engineering (2016), and PhD in Electrical Engineering (2022) all from KAIST.",
+        "summary": "I am a passionate, self-motivated security researcher. My goal is to secure the Internet of Things (IoT) ecosystem. To achieve this, I have experienced (1) smart home systems (e.g., wired/wireless routers, IP cameras, smart TVs), (2) mobile systems (e.g., Android applications, baseband software, wearable devices), (3) cellular infrastructures (e.g., specifications, charging policy, VoLTE, femtocells), (4) smart infrastructure (e.g., automobiles, commercial drones), and (5) blockchain systems (e.g., Bitcoin, Ethereum, EOS). To broaden my horizons, I have competed in various hacking contests: (1) U.S. (e.g., DEFCON, Plaid CTF), (2) South Korea (e.g., Codegate, Whitehat Contest, and HDCON), and (3) China (e.g., 0CTF). Additionally, since 2010, I have co-operated with KAIST Computer Emergency Response Team (CERT) for investigating intrusion cases. I received my BS in Computer Science (2014), MS in Electrical Engineering (2016), and PhD in Electrical Engineering (2022) all from KAIST.",
         "location": {
             "address": "Samsung SDS, 125, Olympic-ro 35-gil",
             "postalCode": "05510",
@@ -57,14 +57,14 @@
             "company": "Advanced Penetration Test Group, Samsung SDS",
             "position": "Security Engineer",
             "startDate": "2022-08-01",
-            "summary": "We exploit any device/software/framework/platform from Samsung."
+            "summary": "Exploited any device/system associated with Samsung."
         },
         {
             "company": "Pinion Industries",
             "position": "Intern",
             "startDate": "2013-12-26",
             "endDate": "2014-02-28",
-            "summary": "Pinion Industries hack automobiles to eliminate vulnerabilities. We exploited various components in a car including network systems, AVN, telematics, smartkey, and ECUs. Members of Pinion Industries are now working for Hyundai."
+            "summary": "Hacked automobiles to eliminate vulnerabilities. We exploited various components in a car including network systems, AVN, telematics, smartkey, and ECUs. Members of Pinion Industries are now working for Hyundai."
         },
         {
             "company": "KAIST Computer Emergency Response Team (CERT)",
