@@ -566,37 +566,37 @@
     ],
     "references": [
         {
-            "name": "Prof. Yongdae Kim",
+            "name": "Dr. Yongdae Kim",
             "position": "Professor of Electrical Engineering (EE) and Graduate School of Information Security (GSIS), KAIST",
             "email": "yongdaek@kaist.ac.kr",
             "website": "https://syssec.kaist.ac.kr/~yongdaek"
         },
         {
-            "name": "Prof. Sang Kil Cha",
+            "name": "Dr. Sang Kil Cha",
             "position": "Director of Cyber Security Research Center (CSRC), KAIST, and Associate Professor of School of Computing (CS) and GSIS, KAIST",
             "email": "sangkilc@kaist.ac.kr",
             "website": "https://softsec.kaist.ac.kr/~sangkilc"
         },
         {
-            "name": "Prof. Sooel Son",
+            "name": "Dr. Sooel Son",
             "position": "Associate Professor of CS and GSIS, KAIST",
             "email": "sl.son@kaist.ac.kr",
             "website": "https://sites.google.com/site/ssonkaist"
         },
         {
-            "name": "Prof. Yeongjin Jang",
-            "position": "Assistant Professor of CS, Oregon State University",
-            "email": "yeongjin.jang@oregonstate.edu",
+            "name": "Dr. Yeongjin Jang",
+            "position": "Principal Software Engineer",
+            "email": "y.jang1@samsung.com",
             "website": "https://www.unexploitable.systems"
         },
         {
-            "name": "Prof. Insu Yun",
+            "name": "Dr. Insu Yun",
             "position": "Assistant Professor of EE and GSIS, KAIST",
             "email": "insuyun@kaist.ac.kr",
             "website": "https://insuyun.github.io/"
         },
         {
-            "name": "Prof. Sukyoung Ryu",
+            "name": "Dr. Sukyoung Ryu",
             "position": "Head of CS, KAIST",
             "email": "sryu.cs@kaist.ac.kr",
             "website": "https://plrg.kaist.ac.kr/ryu"
