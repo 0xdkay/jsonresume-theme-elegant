@@ -242,6 +242,14 @@
                 {
                     "name": "[Slides]",
                     "website": "pub/2024/kim-dothack24-ai-slides.pdf"
+                },
+                {
+                    "name": "[.HACK Song Video]",
+                    "website": "pub/2024/.hack.mp4"
+                },
+                {
+                    "name": "[.HACK Song Audio]",
+                    "website": "pub/2024/.hack.mp3"
                 }
             ],
             "links": [
