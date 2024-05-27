@@ -1,0 +1,59 @@
+unless _.isEmpty(resume.hots)
+  .detail#hots
+    .icon
+      i.fs-lg.icon-child
+      span.mobile-title Recent Talks
+
+    .info
+      a(href="#hots")
+        h4.title.text-uppercase Recent Talks
+
+      .content
+        ul.list-unstyled
+          - each hot in resume.hots
+            li.card.card-nested
+              .content
+                p.clear-margin
+                  strong
+                    if hot.website
+                      a(href=hot.website, target="_blank")= hot.name
+                    else
+                      a(href="#hots")
+                        |#{hot.name}
+
+                  unless _.isEmpty(hot.sources)
+                    - each source in hot.sources
+                      |&nbsp;
+                      a(href=source.website, target="_blank").source= source.name
+
+                  if hot.bestpaper
+                    |&nbsp;
+                    span.label.label-best= "Best Paper"
+
+                p.clear-margin
+                  small
+                    |!{hot.author}
+
+                p.text-muted
+                  small= hot.publisher
+
+                unless _.isEmpty(hot.links)
+                  span.label.label-media= "Link: "
+                  small
+                    - each media, idx in hot.links
+                      a(href=media.website, target="_blank").media= media.name
+                      if idx === hot.links.length - 1
+                        // do nothing
+                      else
+                        | ,
+
+                unless _.isEmpty(hot.medias)
+                  span.label.label-media= "Media: "
+                  small
+                    - each media in hot.medias
+                      a(href=media.website, target="_blank").media= media.name
+                      | ,
+                    | ...
+
+                p.text-muted
+                  small= hot.releaseDate

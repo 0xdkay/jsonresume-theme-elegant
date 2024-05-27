@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Dongkwan Kim",
-        "label": "Security Researcher",
+        "label": "Security Researcher [at] Samsung Security Center",
         "picture": "dkay.jpg",
         "email": "dkay@kaist.ac.kr",
         "website": "https://0xdkay.me",
@@ -54,17 +54,18 @@
     ],
     "work": [
         {
-            "company": "Advanced Penetration Test Group, Samsung SDS",
+            "company": "Samsung Security Center, Samsung SDS",
             "position": "Security Engineer",
             "startDate": "2022-08-01",
-            "summary": "Exploited any device/system associated with Samsung."
+            "endDate": "2024-12-31",
+            "summary": "Carrying out Red Team work to proactively prevent security threats to products and services of all Samsung affiliates."
         },
         {
             "company": "Pinion Industries",
             "position": "Intern",
             "startDate": "2013-12-26",
             "endDate": "2014-02-28",
-            "summary": "Hacked automobiles to eliminate vulnerabilities. We exploited various components in a car including network systems, AVN, telematics, smartkey, and ECUs. Members of Pinion Industries are now working for Hyundai."
+            "summary": "Car hacking compnay. Exploited various components in a car including network systems, AVN, telematics, smartkey, and ECUs. Members of Pinion Industries are now working for Hyundai."
         },
         {
             "company": "KAIST Computer Emergency Response Team (CERT)",
@@ -108,11 +109,22 @@
     ],
     "interests": [
         {
+            "name": "AI System Security",
+            "keywords": [
+                "Prompt Injection",
+                "Model Hijacking",
+                "Information Leak",
+                "Responsible Model",
+                "Safety Filtering"
+            ]
+        },
+        {
             "name": "Software Security",
             "keywords": [
-                "Reverse Engineering",
+                "Reversing",
                 "Binary Code Similarity Analysis",
-                "Automatic Exploit Generation"
+                "Automatic Exploit Generation",
+                "LLM-Assisted Analysis"
             ]
         },
         {
@@ -121,16 +133,20 @@
                 "Baseband",
                 "Control Plane",
                 "IMS",
-                "Privacy",
-                "Accounting"
+                "Stingray",
+                "Accounting",
+                "Core Network"
             ]
         },
         {
             "name": "Cyber-Physical System Security",
             "keywords": [
-                "Drone",
-                "Automobile",
-                "Wearables"
+                "Drone Hijacking",
+                "Car Hacking",
+                "Wearable Devices",
+                "Sensor Spoofing",
+                "EMI Injection",
+                "Robots"
             ]
         }
     ],
@@ -213,6 +229,46 @@
             "title": "PADOCON CTF 1st Prize $1,000 (team. GoN)",
             "date": "2011-01-31",
             "summary": "Organized by PAraDOx CONference (union of undergraduate hacking groups)"
+        }
+    ],
+    "hots": [
+        {
+            "name": "(Korean) AI Security Primer: Red Team Perspectives on Navigating New Threats and Safeguarding AI Frontier",
+            "publisher": ".HACK Conference, Theori",
+            "author": "Dongkwan Kim",
+            "releaseDate": "2024-05-28",
+            "website": "pub/2024/kim-dothack24-ai-slides.pdf",
+            "sources": [
+                {
+                    "name": "[Slides]",
+                    "website": "pub/2024/kim-dothack24-ai-slides.pdf"
+                }
+            ],
+            "links": [
+                {
+                    "name": "Schedule",
+                    "website": "https://dothack.io/session"
+                }
+            ]
+        },
+        {
+            "name": "Scaling up Vulnerability Analysis of IoT Devices with Heuristics and Binary Code Similarity",
+            "publisher": "Colloquium Fall 2023, School of Cybersecurity, Korea University",
+            "author": "Dongkwan Kim",
+            "releaseDate": "2023-10-25",
+            "website": "pub/2023/kim-korea23-scaling-slides.pdf",
+            "sources": [
+                {
+                    "name": "[Slides]",
+                    "website": "pub/2023/kim-korea23-scaling-slides.pdf"
+                }
+            ],
+            "links": [
+                {
+                    "name": "Schedule",
+                    "website": "https://gss.korea.ac.kr/ime/commu/notice.do?mode=view&articleNo=332683&article.offset=0&articleLimit=15&srSearchVal=%EC%BD%9C%EB%A1%9C%ED%80%B4%EC%9B%80&srSearchKey=article_title&totalNoticeYn=N&totalBoardNo="
+                }
+            ]
         }
     ],
     "publications": [
