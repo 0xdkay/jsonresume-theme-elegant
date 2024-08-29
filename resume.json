@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Dongkwan Kim",
-        "label": "Security Researcher [at] Samsung Security Center",
+        "label": "Security Engineer [at] Samsung Security Center",
         "picture": "dkay.jpg",
-        "email": "dkay@kaist.ac.kr",
+        "email": "0xdkay@gmail.com",
         "website": "https://0xdkay.me",
         "cv" : "pub/cv.pdf",
-        "summary": "I am a passionate, self-motivated security researcher. My goal is to secure the Internet of Things (IoT) ecosystem. To achieve this, I have experienced (1) smart home systems (e.g., wired/wireless routers, IP cameras, smart TVs), (2) mobile systems (e.g., Android applications, baseband software, wearable devices), (3) cellular infrastructures (e.g., specifications, charging policy, VoLTE, femtocells), (4) smart infrastructure (e.g., automobiles, commercial drones), and (5) blockchain systems (e.g., Bitcoin, Ethereum, EOS). To broaden my horizons, I have competed in various hacking contests: (1) U.S. (e.g., DEFCON, Plaid CTF), (2) South Korea (e.g., Codegate, Whitehat Contest, and HDCON), and (3) China (e.g., 0CTF). Additionally, since 2010, I have co-operated with KAIST Computer Emergency Response Team (CERT) for investigating intrusion cases. I received my BS in Computer Science (2014), MS in Electrical Engineering (2016), and PhD in Electrical Engineering (2022) all from KAIST.",
+        "summary": "Dongkwan Kim is a highly interdisciplinary security researcher and engineer with expertise in AI, IoT, mobile/cellular systems, and cyber-physical systems, including drones and automobiles. He has authored multiple top-tier research papers, holds patents, and has delivered talks at various industry and academic venues, sharing insights that advance these fields (see his recent slides on AI service security). Known for his strong communication skills, he has won awards at hacking contests and led the KAIST hacking team in organizing CTFs such as Samsung CTF ’17 and ’18.<br/><br/>In the Advanced Penetration Testing Group at the Samsung Security Center, he plays a pivotal role in “Red Team” efforts, applying interdisciplinary approaches to address previously overlooked enterprise security threats across all Samsung affiliates, collaborating closely with various companies and their departments. His current focus is on securing AI services across a broad spectrum, from cloud infrastructure to on-device applications and models, ensuring robust and secure environments.",
         "location": {
             "address": "Samsung SDS, 125, Olympic-ro 35-gil",
             "postalCode": "05510",
@@ -16,6 +16,11 @@
         },
         "profiles": [
             {
+                "network": "Facebook",
+                "username": "0xdkay",
+                "url": "https://facebook.com/0xdkay"
+            },
+            {
                 "network": "Linkedin",
                 "username": "0xdkay",
                 "url": "https://www.linkedin.com/in/0xdkay"
@@ -24,11 +29,6 @@
                 "network": "Twitter",
                 "username": "0xdkay",
                 "url": "https://twitter.com/0xdkay"
-            },
-            {
-                "network": "Facebook",
-                "username": "0xdkay",
-                "url": "https://facebook.com/0xdkay"
             },
             {
                 "network": "Github",
@@ -54,15 +54,21 @@
     ],
     "work": [
         {
-            "company": "Samsung Security Center, Samsung SDS",
+            "company": "Advanced Penetration Testing Group, Samsung Security Center, Samsung SDS",
             "position": "Security Engineer",
             "startDate": "2022-08-01",
-            "endDate": "2024-12-31",
             "summary": "Carrying out Red Team work to proactively prevent security threats to products and services of all Samsung affiliates."
         },
         {
+            "company": "KAIST",
+            "position": "Ph.D. and Postdoctoral Researcher",
+            "startDate": "2014-03-01",
+            "endDate": "2022-07-31",
+            "summary": "Successfully completed 17 industrial & governmental projects, leading 7 projects (See cv for more details)"
+        },
+        {
             "company": "Pinion Industries",
-            "position": "Intern",
+            "position": "Security Engineer (Intern)",
             "startDate": "2013-12-26",
             "endDate": "2014-02-28",
             "summary": "Car hacking compnay. Exploited various components in a car including network systems, AVN, telematics, smartkey, and ECUs. Members of Pinion Industries are now working for Hyundai."
@@ -72,6 +78,7 @@
             "position": "Student Senior",
             "startDate": "2010-09-01",
             "endDate": "2012-12-31",
+            "summary": "Investigated security incidents, successfully identified the culprit in one case, leading to their apprehension by the police.",
             "highlights": [
                 "Student Team Leader (2011. 9. 1 ~ 2012. 8. 31)"
             ]
@@ -112,7 +119,6 @@
             "name": "AI System Security",
             "keywords": [
                 "Prompt Injection",
-                "Model Hijacking",
                 "Information Leak",
                 "Responsible Model",
                 "Safety Filtering"
@@ -123,18 +129,16 @@
             "keywords": [
                 "Reversing",
                 "Binary Code Similarity Analysis",
-                "Automatic Exploit Generation",
-                "LLM-Assisted Analysis"
+                "Automatic Exploit Generation"
             ]
         },
         {
             "name": "Cellular Network Security",
             "keywords": [
-                "Baseband",
+                "Baseband Exploit",
                 "Control Plane",
                 "IMS",
-                "Stingray",
-                "Accounting",
+                "Charging Bypass",
                 "Core Network"
             ]
         },
@@ -233,23 +237,15 @@
     ],
     "hots": [
         {
-            "name": "(Korean) AI Security Primer: Red Team Perspectives on Navigating New Threats and Safeguarding AI Frontier",
+            "name": "AI Security Primer: Red Team Perspectives on Navigating New Threats and Safeguarding AI Frontier",
             "publisher": ".HACK Conference, Theori",
             "author": "Dongkwan Kim",
             "releaseDate": "2024-05-28",
             "website": "pub/2024/kim-dothack24-ai-slides.pdf",
             "sources": [
                 {
-                    "name": "[Slides]",
+                    "name": "[Slides (Korean)]",
                     "website": "pub/2024/kim-dothack24-ai-slides.pdf"
-                },
-                {
-                    "name": "[.HACK Song Video]",
-                    "website": "pub/2024/kim-dothack24-ai-video.mp4"
-                },
-                {
-                    "name": "[.HACK Song Audio]",
-                    "website": "pub/2024/kim-dothack24-ai-song.mp3"
                 }
             ],
             "links": [
