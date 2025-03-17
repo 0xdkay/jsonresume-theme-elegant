@@ -649,6 +649,12 @@
             "website": "https://syssec.kaist.ac.kr/~yongdaek"
         },
         {
+            "name": "Dr. Taesoo Kim",
+            "position": "Professor, School of Cybersecurity and Privacy (SCP) and Computer Science (SCS), Georgia Tech",
+            "email": "taesoo@gatech.edu",
+            "website": "https://taesoo.kim/"
+        },
+        {
             "name": "Dr. Sang Kil Cha",
             "position": "Director, Cyber Security Research Center (CSRC), KAIST and Associate Professor, School of Computing and Graduate School of Information Security, KAIST",
             "email": "sangkilc@kaist.ac.kr",
@@ -671,12 +677,6 @@
             "position": "Associate Professor, School of Electrical Engineering, KAIST",
             "email": "insuyun@kaist.ac.kr",
             "website": "https://insuyun.github.io/"
-        },
-        {
-            "name": "Dr. Sukyoung Ryu",
-            "position": "Head of CS, KAIST",
-            "email": "sryu.cs@kaist.ac.kr",
-            "website": "https://plrg.kaist.ac.kr/ryu"
         }
     ]
 }
