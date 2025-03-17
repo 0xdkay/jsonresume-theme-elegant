@@ -1,18 +1,18 @@
 {
     "basics": {
         "name": "Dongkwan Kim",
-        "label": "Security Engineer [at] Samsung Security Center",
+        "label": "Postdoctoral Fellow [at] Georgia Tech",
         "picture": "dkay.jpg",
         "email": "0xdkay@gmail.com",
         "website": "https://0xdkay.me",
         "cv" : "pub/cv.pdf",
-        "summary": "Dongkwan Kim is a highly interdisciplinary security researcher and engineer with expertise in AI, IoT, mobile/cellular systems, and cyber-physical systems, including drones and automobiles. He has authored multiple top-tier research papers, holds patents, and has delivered talks at various industry and academic venues, sharing insights that advance these fields (see his recent slides on AI service security). Known for his strong communication skills, he has won awards at hacking contests and led the KAIST hacking team in organizing CTFs such as Samsung CTF ’17 and ’18.<br/><br/>In the Advanced Penetration Testing Group at the Samsung Security Center, he plays a pivotal role in “Red Team” efforts, applying interdisciplinary approaches to address previously overlooked enterprise security threats across all Samsung affiliates, collaborating closely with various companies and their departments. His current focus is on securing AI services across a broad spectrum, from cloud infrastructure to on-device applications and models, ensuring robust and secure environments.",
+        "summary": "I am a <strong>security engineer and researcher</strong> with a deep interest in uncovering <strong>inter-domain security threats</strong> in AI, IoT, mobile networks, and cyber-physical systems. My work spans beyond device-level vulnerabilities, focusing on how security issues impact <strong>business logic, service architectures, and user privacy</strong>. </br></br>Currently, I'm exploring: <ul> <li><strong>AI for Security</strong> – Developing AI-driven vulnerability discovery and exploitation tools as a <strong>finalist in DARPA's AIxCC competition</strong> at Georgia Tech</strong>.</li> <li><strong>Securing AI Systems</strong> – Formerly at Samsung Security Center, where I worked on enterprise and on-device AI security.</li> </ul> What I Do <ul> <li>Identify and exploit security vulnerabilities across diverse domains</li> <li>Research and build solutions to secure AI-integrated infrastructures</li> <li>Reverse-engineer firmware, basebands, and embedded systems</li> <li>Collaborate with cross-functional teams to mitigate security risks</li> </ul> Achievements <ul> <li><strong>5x DEFCON Finalist</strong> | Multiple hacking competition awards</li> <li><strong>9 publications</strong> in top-tier security venues (USENIX Security, CCS, NDSS, TSE, TMC)</li> <li><strong>7 patents</strong> in cybersecurity and AI security domains</li> <li><strong>17+ industry and government projects</strong> in security research & engineering</li> </ul> I thrive in hands-on security research, bridging the gap between <strong>theory and practice</strong>, and working alongside experts to <strong>push the boundaries of cybersecurity</strong>. </br></br>If you're interested in my work or want to discuss security challenges, feel free to <strong>connect with me</strong> or explore more on this site.",
         "location": {
-            "address": "Samsung SDS, 125, Olympic-ro 35-gil",
-            "postalCode": "05510",
-            "city": "Songpa-gu",
-            "countryCode": "KR",
-            "region": "Seoul"
+            "address": "756 W Peachtree St NW S0980",
+            "postalCode": "30308",
+            "city": "Atlanta",
+            "countryCode": "US",
+            "region": "GA"
         },
         "profiles": [
             {
@@ -54,31 +54,44 @@
     ],
     "work": [
         {
+            "company": "School of Cybersecurity and Privacy, Georgia Tech",
+            "position": "Postdoctoral Fellow",
+            "startDate": "2025-02-01",
+            "summary": "Participating in AIxCC run by DARPA, a competition that leverages AI to find vulnerabilities and patch them fully automatically.",
+            "highlights": [
+                "Manager: Prof. Taesoo Kim"
+            ]
+        },
+        {
             "company": "Advanced Penetration Testing Group, Samsung Security Center, Samsung SDS",
-            "position": "Security Engineer",
+            "position": "Senior Engineer",
             "startDate": "2022-08-01",
-            "summary": "Carrying out Red Team work to proactively prevent security threats to products and services of all Samsung affiliates."
+            "endDate": "2024-12-31",
+            "summary": "Worked at the Samsung Security Center, carrying out Red Team efforts to proactively prevent security threats to products and services of all Samsung affiliates: Integrated AI service systems, IoT/embedded devices, Android applications, kernel-level mitigations, and many more."
         },
         {
             "company": "KAIST",
-            "position": "Ph.D. and Postdoctoral Researcher",
-            "startDate": "2014-03-01",
+            "position": "Postdoctoral Researcher",
+            "startDate": "2022-03-01",
             "endDate": "2022-07-31",
-            "summary": "Successfully completed 17 industrial & governmental projects, leading 7 projects (See cv for more details)"
+            "summary": "Continued collaboration research on 1) sensor spoofing and EMI injection against drones, 2) finding logic bugs in smartphone baseband software",
+            "highlights": [
+                "Manager: Prof. Yongdae Kim"
+            ]
         },
         {
             "company": "Pinion Industries",
-            "position": "Security Engineer (Intern)",
-            "startDate": "2013-12-26",
+            "position": "Research Intern",
+            "startDate": "2013-12-01",
             "endDate": "2014-02-28",
-            "summary": "Car hacking compnay. Exploited various components in a car including network systems, AVN, telematics, smartkey, and ECUs. Members of Pinion Industries are now working for Hyundai."
+            "summary": "An automotive software and security start-up. Analyzed various components in a car including network systems, AVN, telematics, smartkey, and ECUs."
         },
         {
-            "company": "KAIST Computer Emergency Response Team (CERT)",
+            "company": "KAIST CERT",
             "position": "Student Senior",
             "startDate": "2010-09-01",
             "endDate": "2012-12-31",
-            "summary": "Investigated security incidents, successfully identified the culprit in one case, leading to their apprehension by the police.",
+            "summary": "Investigated security incidents. In one case, successfully identified the culprit leading to their apprehension by the police.",
             "highlights": [
                 "Student Team Leader (2011. 9. 1 ~ 2012. 8. 31)"
             ]
@@ -90,14 +103,18 @@
             "area": "Electrical Engineering",
             "studyType": "Ph.D.",
             "startDate": "2016-03-01",
-            "endDate": "2022-02-18"
+            "endDate": "2022-02-18",
+            "thesis": "Improving Large-Scale Vulnerability Analysis of IoT Devices with Heuristics and Binary Code Similarity",
+            "advisor": "Prof. Yongdae Kim"
         },
         {
             "institution": "KAIST",
             "area": "Electrical Engineering",
             "studyType": "M.S.",
             "startDate": "2014-03-03",
-            "endDate": "2016-02-19"
+            "endDate": "2016-02-19",
+            "thesis": "Dissecting VoLTE: Exploiting Free Data Channels and Security Problems",
+            "advisor": "Prof. Yongdae Kim"
         },
         {
             "institution": "EURECOM",
@@ -627,31 +644,31 @@
     "references": [
         {
             "name": "Dr. Yongdae Kim",
-            "position": "Professor of Electrical Engineering (EE) and Graduate School of Information Security (GSIS), KAIST",
+            "position": "Director, Cyber Security Research Center (CSRC), KAIST and Professor, School of Electrical Engineering and Graduate School of Information Security, KAIST",
             "email": "yongdaek@kaist.ac.kr",
             "website": "https://syssec.kaist.ac.kr/~yongdaek"
         },
         {
             "name": "Dr. Sang Kil Cha",
-            "position": "Director of Cyber Security Research Center (CSRC), KAIST, and Associate Professor of School of Computing (CS) and GSIS, KAIST",
+            "position": "Director, Cyber Security Research Center (CSRC), KAIST and Associate Professor, School of Computing and Graduate School of Information Security, KAIST",
             "email": "sangkilc@kaist.ac.kr",
             "website": "https://softsec.kaist.ac.kr/~sangkilc"
         },
         {
             "name": "Dr. Sooel Son",
-            "position": "Associate Professor of CS and GSIS, KAIST",
+            "position": "Associate Professor, School of Computing and Graduate School of Information Security, KAIST",
             "email": "sl.son@kaist.ac.kr",
             "website": "https://sites.google.com/site/ssonkaist"
         },
         {
             "name": "Dr. Yeongjin Jang",
-            "position": "Principal Software Engineer",
+            "position": "Principal Software Engineer, Samsung Research America",
             "email": "y.jang1@samsung.com",
             "website": "https://www.unexploitable.systems"
         },
         {
             "name": "Dr. Insu Yun",
-            "position": "Assistant Professor of EE and GSIS, KAIST",
+            "position": "Associate Professor, School of Electrical Engineering, KAIST",
             "email": "insuyun@kaist.ac.kr",
             "website": "https://insuyun.github.io/"
         },
