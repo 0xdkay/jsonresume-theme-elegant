@@ -20,5 +20,20 @@ unless _.isEmpty(resume.awards)
                   p.text-muted
                     small= award.summary
 
+                unless _.isEmpty(award.links)
+                  span.label.label-media= "Link: "
+                  small
+                    - each media in award.links
+                      a(href=media.website, target="_blank").media= media.name
+                      | ,
+
+                unless _.isEmpty(award.medias)
+                  span.label.label-media= "Media: "
+                  small
+                    - each media in award.medias
+                      a(href=media.website, target="_blank").media= media.name
+                      | ,
+                    | ...
+
                 p.text-muted
                   small= award.date
