@@ -6,7 +6,7 @@
         "email": "0xdkay@gmail.com",
         "website": "https://0xdkay.me",
         "cv" : "pub/cv.pdf",
-        "summary": "I am a <strong>security engineer and researcher</strong> with a deep interest in uncovering <strong>inter-domain security threats</strong> in AI, IoT, mobile networks, and cyber-physical systems. My work spans beyond device-level vulnerabilities, focusing on how security issues impact <strong>business logic, service architectures, and user privacy</strong>. </br></br>Currently, I'm exploring: <ul> <li><strong>AI for Security</strong> – Developing AI-driven vulnerability discovery and exploitation tools as a <strong>finalist in DARPA's AIxCC competition</strong> at Georgia Tech</strong>.</li> <li><strong>Securing AI Systems</strong> – Formerly at Samsung Security Center, where I worked on enterprise and on-device AI security.</li> </ul> What I Do <ul> <li>Identify and exploit security vulnerabilities across diverse domains</li> <li>Research and build solutions to secure AI-integrated infrastructures</li> <li>Reverse-engineer firmware, basebands, and embedded systems</li> <li>Collaborate with cross-functional teams to mitigate security risks</li> </ul> Achievements <ul> <li><strong>5x DEFCON Finalist</strong> | Multiple hacking competition awards</li> <li><strong>9 publications</strong> in top-tier security venues (USENIX Security, CCS, NDSS, TSE, TMC)</li> <li><strong>7 patents</strong> in cybersecurity and AI security domains</li> <li><strong>17+ industry and government projects</strong> in security research & engineering</li> </ul> I thrive in hands-on security research, bridging the gap between <strong>theory and practice</strong>, and working alongside experts to <strong>push the boundaries of cybersecurity</strong>. </br></br>If you're interested in my work or want to discuss security challenges, feel free to <strong>connect with me</strong> or explore more on this site.",
+        "summary": "I am a <strong>security engineer and researcher</strong> with a deep interest in uncovering <strong>inter-domain security threats</strong> in AI, IoT, mobile networks, and cyber-physical systems. My work spans beyond device-level vulnerabilities, focusing on how security issues impact <strong>business logic, service architectures, and user privacy</strong>. </br></br>Currently, I'm exploring: <ul> <li><strong>AI for Security</strong> – Core member of Team Atlanta, <strong>1st Place Winner of DARPA's AI Cyber Challenge (AIxCC)</strong>. Developing multi-agent systems for automated vulnerability discovery and exploitation at Georgia Tech.</li> <li><strong>Securing AI Systems</strong> – Formerly at Samsung Security Center, where I worked on enterprise and on-device AI security.</li> </ul> What I Do <ul> <li>Identify and exploit security vulnerabilities across diverse domains</li> <li>Research and build solutions to secure AI-integrated infrastructures</li> <li>Reverse-engineer firmware, basebands, and embedded systems</li> <li>Collaborate with cross-functional teams to mitigate security risks</li> </ul> Achievements <ul> <li><strong>1st Place - DARPA AIxCC</strong> | Team Atlanta member focused on AI-driven vulnerability discovery and exploitation</li> <li><strong>5x DEFCON Finalist</strong> | Multiple hacking competition awards</li> <li><strong>9 publications</strong> in top-tier security venues (USENIX Security, CCS, NDSS, TSE, TMC)</li> <li><strong>7 patents</strong> in cybersecurity and AI security domains</li> <li><strong>17+ industry and government projects</strong> in security research & engineering</li> </ul> I thrive in hands-on security research, bridging the gap between <strong>theory and practice</strong>, and working alongside experts to <strong>push the boundaries of cybersecurity</strong>. </br></br>If you're interested in my work or want to discuss security challenges, feel free to <strong>connect with me</strong> or explore more on this site.",
         "location": {
             "address": "756 W Peachtree St NW S0980",
             "postalCode": "30308",
@@ -56,10 +56,12 @@
         {
             "company": "School of Cybersecurity and Privacy, Georgia Tech",
             "position": "Postdoctoral Fellow",
-            "startDate": "2025-02-01",
-            "summary": "Participating in AIxCC run by DARPA, a competition that leverages AI to find vulnerabilities and patch them fully automatically.",
+            "startDate": "2025-01-01",
+            "summary": "Core member of Team Atlanta, winner of DARPA's AI Cyber Challenge (AIxCC). Developing multi-agent systems for automated vulnerability discovery and exploitation within Atlantis, the team's AI-driven cyber reasoning system.",
             "highlights": [
-                "Manager: Prof. Taesoo Kim"
+                "Manager: Prof. Taesoo Kim",
+                "1st Place Winner - DARPA AIxCC Competition",
+                "Focused on vulnerability discovery and exploitation using multi-agent AI systems"
             ]
         },
         {
@@ -173,12 +175,56 @@
     ],
     "awards": [
         {
+            "title": "1st Place - DARPA AI Cyber Challenge (AIxCC) (Team Atlanta)",
+            "date": "2025-08-09",
+            "awarder": "Defense Advanced Research Projects Agency (DARPA)",
+            "summary": "Organized by Defense Advanced Research Projects Agency (DARPA)",
+            "links": [
+                {
+                    "name": "AIxCC Official Website",
+                    "website": "https://aicyberchallenge.com/"
+                },
+                {
+                    "name": "Team Atlanta",
+                    "website": "https://team-atlanta.github.io/"
+                }
+            ]
+        },
+        {
             "title": "Finalist to Defcon 27 CTF (team. KaisHack GoN)",
-            "date": "2019-08-09"
+            "date": "2019-08-09",
+            "links": [
+                {
+                    "name": "Official Website",
+                    "website": "https://defcon.org/html/defcon-27/dc-27-ctf.html"
+                },
+                {
+                    "name": "CTF Organizer - Finals",
+                    "website": "https://oooverflow.io/dc-ctf-2019-finals/"
+                },
+                {
+                    "name": "CTF Organizer - Quals",
+                    "website": "https://oooverflow.io/dc-ctf-2019-quals/"
+                }
+            ]
         },
         {
             "title": "Finalist to Defcon 26 CTF (team. KaisHack+PLUS+GoN)",
-            "date": "2018-08-09"
+            "date": "2018-08-09",
+            "links": [
+                {
+                    "name": "Official Website",
+                    "website": "https://defcon.org/html/defcon-26/dc-26-ctf.html"
+                },
+                {
+                    "name": "CTF Organizer - Finals",
+                    "website": "https://oooverflow.io/dc-ctf-2018-finals/"
+                },
+                {
+                    "name": "CTF Organizer - Quals",
+                    "website": "https://oooverflow.io/dc-ctf-2018-quals/"
+                }
+            ]
         },
         {
             "title": "HDCON CTF 1st Prize $20,000 (team. maxlen)",
@@ -200,7 +246,17 @@
         },
         {
             "title": "Finalist to Defcon 24 CTF (team. KaisHack GoN)",
-            "date": "2016-08-05"
+            "date": "2016-08-05",
+            "links": [
+                {
+                    "name": "Official Website",
+                    "website": "https://defcon.org/html/defcon-24/dc-24-ctf.html"
+                },
+                {
+                    "name": "CTF Organizer - Finals",
+                    "website": "https://legitbs.net/statdump_2016/scoreboard.html"
+                }
+            ]
         },
         {
             "title": "Whitehat Contest 2014 1st Prize $20,000 (team. Syssec)",
@@ -210,7 +266,17 @@
         },
         {
             "title": "Finalist to Defcon 22 CTF (team. KAIST GoN)",
-            "date": "2014-08-08"
+            "date": "2014-08-08",
+            "links": [
+                {
+                    "name": "Official Website",
+                    "website": "https://defcon.org/html/defcon-22/dc-22-ctf.html"
+                },
+                {
+                    "name": "CTF Organizer - Finals",
+                    "website": "https://legitbs.net/statdump_2014/scoreboard.html"
+                }
+            ]
         },
         {
             "title": "HDCON CTF Silver Prize $2,000 (team. GoN)",
@@ -226,7 +292,17 @@
         },
         {
             "title": "Finalist to Defcon 20 CTF (team. KAIST GoN)",
-            "date": "2012-07-27"
+            "date": "2012-07-27",
+            "links": [
+                {
+                    "name": "Official Website",
+                    "website": "https://defcon.org/html/defcon-20/dc-20-ctf.html"
+                },
+                {
+                    "name": "CTF Organizer - Finals",
+                    "website": "http://www.ddtek.biz/"
+                }
+            ]
         },
         {
             "title": "HDCON CTF Silver Prize $2,000 (team. KAIST GoN)",
