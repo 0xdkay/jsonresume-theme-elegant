@@ -17,11 +17,6 @@
         },
         "profiles": [
             {
-                "network": "Facebook",
-                "username": "0xdkay",
-                "url": "https://facebook.com/0xdkay"
-            },
-            {
                 "network": "Linkedin",
                 "username": "0xdkay",
                 "url": "https://www.linkedin.com/in/0xdkay"
@@ -37,9 +32,9 @@
                 "url": "https://github.com/0xdkay"
             },
             {
-                "network": "Instagram",
+                "network": "Facebook",
                 "username": "0xdkay",
-                "url": "https://www.instagram.com/0xdkay"
+                "url": "https://facebook.com/0xdkay"
             }
         ]
     },
