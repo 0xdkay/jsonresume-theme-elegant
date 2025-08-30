@@ -327,7 +327,7 @@
     "hots": [
         {
             "name": "AI Security 101: Red Team's Perspective on Navigating New Threats in AI Frontier",
-            "publisher": "Korea Institute of Information Security & Cryptology (KIISC)",
+            "publisher": "IT Platform Security Research Group of Korea Institute of Information Security & Cryptology (KIISC)",
             "author": "Dongkwan Kim",
             "releaseDate": "2024-11-18",
             "website": "pub/2024/kim-aisec101-red-team.pdf",
