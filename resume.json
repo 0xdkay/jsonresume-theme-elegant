@@ -336,7 +336,9 @@
                     "name": "[Slides Ver.2]",
                     "website": "pub/2024/kim-aisec101-red-team.pdf"
                 }
-            ],
+            ]
+        },
+        {
             "name": "AI Security Primer: Red Team Perspectives on Navigating New Threats and Safeguarding AI Frontier",
             "publisher": ".HACK Conference, Theori",
             "author": "Dongkwan Kim",
