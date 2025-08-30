@@ -326,6 +326,17 @@
     ],
     "hots": [
         {
+            "name": "AI Security 101: Red Team's Perspective on Navigating New Threats in AI Frontier",
+            "publisher": "Korea Institute of Information Security & Cryptology (KIISC)",
+            "author": "Dongkwan Kim",
+            "releaseDate": "2024-11-18",
+            "website": "pub/2024/kim-aisec101-red-team.pdf",
+            "sources": [
+                {
+                    "name": "[Slides Ver.2]",
+                    "website": "pub/2024/kim-aisec101-red-team.pdf"
+                }
+            ],
             "name": "AI Security Primer: Red Team Perspectives on Navigating New Threats and Safeguarding AI Frontier",
             "publisher": ".HACK Conference, Theori",
             "author": "Dongkwan Kim",
@@ -335,6 +346,14 @@
                 {
                     "name": "[Slides (Korean)]",
                     "website": "pub/2024/kim-dothack24-ai-slides.pdf"
+                },
+                {
+                    "name": "[Song]",
+                    "website": "pub/2024/kim-dothack24-ai-song.mp3"
+                },
+                {
+                    "name": "[Video]",
+                    "website": "pub/2024/kim-dothack24-ai-video.mp4"
                 }
             ],
             "links": [
