@@ -387,6 +387,29 @@
     ],
     "publications": [
         {
+            "name": "ATLANTIS: AI-driven Threat Localization, Analysis, and Triage Intelligence System",
+            "publisher": "arXiv",
+            "author": "Taesoo Kim, HyungSeok Han, Soyeon Park, Dae R Jeong, Dohyeok Kim, Dongkwan Kim, Eunsoo Kim, Jiho Kim, Joshua Wang, Kangsu Kim, Sangwoo Ji, Woosun Song, Hanqing Zhao, Andrew Chin, Gyejin Lee, Kevin Stevens, Mansour Alharthi, Yizhuo Zhai, Cen Zhang, Joonun Jang, Yeongjin Jang, Ammar Askar, Dongju Kim, Fabian Fleischer, Jeongin Cho, Junsik Kim, Kyungjoon Ko, Insu Yun, Sangdon Park, Dowoo Baik, Haein Lee, Hyeon Heo, Minjae Gwon, Minjae Lee, Minwoo Baek, Seunggi Min, Wonyoung Kim, Yonghwi Jin, Younggi Park, Yunjae Choi, Jinho Jung, Gwanhyun Lee, Junyoung Jang, Kyuheon Kim, Yeonghyeon Cha, Youngjoon Kim",
+            "releaseDate": "2025-09-18",
+            "website": "https://arxiv.org/abs/2509.14589",
+            "sources": [
+                {
+                    "name": "[Website]",
+                    "website": "https://team-atlanta.github.io/"
+                },
+                {
+                    "name": "[Code]",
+                    "website": "https://team-atlanta.github.io/artifacts/"
+                }
+            ],
+            "medias": [
+                {
+                    "name": "News and Media coverage",
+                    "website": "https://team-atlanta.github.io/news/"
+                }
+            ]
+        },
+        {
             "name": "BaseComp: A Comparative Analysis for Integrity Protection in Cellular Baseband Software",
             "publisher": "Proceedings of the 32st USENIX Security Symposium (Security'23)",
             "author": "Eunsoo Kim*, Min Woo Baek*, CheolJun Park, Dongkwan Kim, Yongdae Kim, Insu Yun",
