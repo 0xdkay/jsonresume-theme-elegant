@@ -326,6 +326,25 @@
     ],
     "hots": [
         {
+            "name": "Inside AI Cyber Challenge",
+            "publisher": "ACM Student Chapter of Maastricht University (MaaSec)",
+            "author": "Dongkwan Kim",
+            "releaseDate": "2025-10-21",
+            "website": "pub/2025/kim-aixcc-atlantis.pdf",
+            "sources": [
+                {
+                    "name": "[Slides]",
+                    "website": "pub/2025/kim-aixcc-atlantis.pdf"
+                }
+            ],
+            "links": [
+                {
+                    "name": "Schedule",
+                    "website": "https://www.linkedin.com/posts/maasec_upcoming-talk-inside-the-ai-cyber-challenge-activity-7385283384824086528-Fj2h"
+                }
+            ]
+        },
+        {
             "name": "AI Security 101: Red Team's Perspective on Navigating New Threats in AI Frontier",
             "publisher": "IT Platform Security Research Group of Korea Institute of Information Security & Cryptology (KIISC)",
             "author": "Dongkwan Kim",
